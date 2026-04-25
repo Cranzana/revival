@@ -19,6 +19,7 @@ RUN if [ "$SCRAMJET_REBUILD" = "1" ]; then \
 		echo "Scramjet dist assets are missing. Build them locally first, or build this image with SCRAMJET_REBUILD=1 after installing the Rust/WASM toolchain."; \
 		exit 1; \
 	fi
+RUN node scripts/ensure-rewriter-stubs.mjs
 RUN pnpm build:web
 
 FROM base AS runner
