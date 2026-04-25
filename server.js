@@ -39,7 +39,7 @@ const fastify = Fastify({
 		createServer()
 			.on("request", (req, res) => {
 				res.setHeader("Cross-Origin-Opener-Policy", "same-origin");
-				res.setHeader("Cross-Origin-Embedder-Policy", "require-corp");
+				res.setHeader("Cross-Origin-Embedder-Policy", "credentialless");
 				res.setHeader("Cross-Origin-Resource-Policy", "same-origin");
 				res.setHeader(
 					"Permissions-Policy",
@@ -125,7 +125,7 @@ if (dev) {
 	try {
 		writeFileSync(
 			".git/hooks/pre-commit",
-			"npm run format\ngit update-index --again"
+			"#!/bin/sh\nnpm run format\ngit update-index --again\n"
 		);
 		chmodSync(".git/hooks/pre-commit", 0o755);
 	} catch {}
