@@ -1,3 +1,223 @@
-module.exports=[93695,(a,b,c)=>{b.exports=a.x("next/dist/shared/lib/no-fallback-error.external.js",()=>require("next/dist/shared/lib/no-fallback-error.external.js"))},12793,(a,b,c)=>{b.exports=a.r(18622)},72443,a=>{a.n(a.i(68069))},90895,a=>{a.n(a.i(30166))},60387,a=>{a.n(a.i(40921))},40985,a=>{a.n(a.i(44078))},4771,a=>{a.n(a.i(61389))},84034,a=>{a.n(a.i(73493))},81652,a=>{a.n(a.i(22072))},53714,a=>{a.n(a.i(32741))},44961,a=>{a.n(a.i(40909))},59273,a=>{a.n(a.i(65175))},2509,a=>{a.n(a.i(64469))},17119,a=>{a.n(a.i(37932))},26186,a=>{a.n(a.i(59840))},71298,a=>{a.n(a.i(30688))},77902,a=>{a.n(a.i(60251))},47494,a=>{a.n(a.i(61189))},78964,a=>{a.n(a.i(67125))},60599,a=>{a.n(a.i(13722))},80342,a=>{a.n(a.i(79041))},20514,a=>{a.n(a.i(36610))},28802,a=>{a.n(a.i(15073))},50195,a=>{a.n(a.i(75196))},16729,a=>{a.n(a.i(65666))},6826,a=>{a.n(a.i(21659))},47279,a=>{a.n(a.i(93212))},39175,a=>{a.n(a.i(86613))},65832,a=>{a.n(a.i(36011))},29905,a=>{a.n(a.i(19071))},52218,a=>{a.n(a.i(96726))},60011,a=>{a.n(a.i(71781))},96881,a=>{a.n(a.i(70273))},55595,a=>{a.n(a.i(46462))},78335,a=>{a.n(a.i(24778))},40788,a=>{"use strict";a.s(["SignInForm",()=>b]);let b=(0,a.i(23810).registerClientReference)(function(){throw Error("Attempted to call SignInForm() from the server but SignInForm is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/components/auth/sign-in-form.tsx <module evaluation>","SignInForm")},82816,a=>{"use strict";a.s(["SignInForm",()=>b]);let b=(0,a.i(23810).registerClientReference)(function(){throw Error("Attempted to call SignInForm() from the server but SignInForm is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/components/auth/sign-in-form.tsx","SignInForm")},51871,a=>{"use strict";a.i(40788);var b=a.i(82816);a.n(b)},74082,a=>{"use strict";var b=a.i(51432),c=a.i(19959),d=a.i(51871);a.s(["default",0,function(){return(0,b.jsx)("main",{className:c.default.authShell,children:(0,b.jsxs)("section",{className:c.default.authCard,children:[(0,b.jsxs)("div",{className:c.default.heroCard,children:[(0,b.jsx)("p",{className:c.default.kicker,children:"Access OmniEdu"}),(0,b.jsx)("h1",{children:"Sign in to your tenant workspace."}),(0,b.jsx)("p",{children:"This screen is wired for React Hook Form and Zod validation so you can connect it to JWT issuance, refresh rotation, MFA, and audit logging next."})]}),(0,b.jsx)(d.SignInForm,{})]})})}])},51398,a=>{a.n(a.i(74082))}];
+module.exports = [
+	93695,
+	(a, b, c) => {
+		b.exports = a.x("next/dist/shared/lib/no-fallback-error.external.js", () =>
+			require("next/dist/shared/lib/no-fallback-error.external.js")
+		);
+	},
+	12793,
+	(a, b, c) => {
+		b.exports = a.r(18622);
+	},
+	72443,
+	(a) => {
+		a.n(a.i(68069));
+	},
+	90895,
+	(a) => {
+		a.n(a.i(30166));
+	},
+	60387,
+	(a) => {
+		a.n(a.i(40921));
+	},
+	40985,
+	(a) => {
+		a.n(a.i(44078));
+	},
+	4771,
+	(a) => {
+		a.n(a.i(61389));
+	},
+	84034,
+	(a) => {
+		a.n(a.i(73493));
+	},
+	81652,
+	(a) => {
+		a.n(a.i(22072));
+	},
+	53714,
+	(a) => {
+		a.n(a.i(32741));
+	},
+	44961,
+	(a) => {
+		a.n(a.i(40909));
+	},
+	59273,
+	(a) => {
+		a.n(a.i(65175));
+	},
+	2509,
+	(a) => {
+		a.n(a.i(64469));
+	},
+	17119,
+	(a) => {
+		a.n(a.i(37932));
+	},
+	26186,
+	(a) => {
+		a.n(a.i(59840));
+	},
+	71298,
+	(a) => {
+		a.n(a.i(30688));
+	},
+	77902,
+	(a) => {
+		a.n(a.i(60251));
+	},
+	47494,
+	(a) => {
+		a.n(a.i(61189));
+	},
+	78964,
+	(a) => {
+		a.n(a.i(67125));
+	},
+	60599,
+	(a) => {
+		a.n(a.i(13722));
+	},
+	80342,
+	(a) => {
+		a.n(a.i(79041));
+	},
+	20514,
+	(a) => {
+		a.n(a.i(36610));
+	},
+	28802,
+	(a) => {
+		a.n(a.i(15073));
+	},
+	50195,
+	(a) => {
+		a.n(a.i(75196));
+	},
+	16729,
+	(a) => {
+		a.n(a.i(65666));
+	},
+	6826,
+	(a) => {
+		a.n(a.i(21659));
+	},
+	47279,
+	(a) => {
+		a.n(a.i(93212));
+	},
+	39175,
+	(a) => {
+		a.n(a.i(86613));
+	},
+	65832,
+	(a) => {
+		a.n(a.i(36011));
+	},
+	29905,
+	(a) => {
+		a.n(a.i(19071));
+	},
+	52218,
+	(a) => {
+		a.n(a.i(96726));
+	},
+	60011,
+	(a) => {
+		a.n(a.i(71781));
+	},
+	96881,
+	(a) => {
+		a.n(a.i(70273));
+	},
+	55595,
+	(a) => {
+		a.n(a.i(46462));
+	},
+	78335,
+	(a) => {
+		a.n(a.i(24778));
+	},
+	40788,
+	(a) => {
+		"use strict";
+		a.s(["SignInForm", () => b]);
+		let b = (0, a.i(23810).registerClientReference)(
+			function () {
+				throw Error(
+					"Attempted to call SignInForm() from the server but SignInForm is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component."
+				);
+			},
+			"[project]/components/auth/sign-in-form.tsx <module evaluation>",
+			"SignInForm"
+		);
+	},
+	82816,
+	(a) => {
+		"use strict";
+		a.s(["SignInForm", () => b]);
+		let b = (0, a.i(23810).registerClientReference)(
+			function () {
+				throw Error(
+					"Attempted to call SignInForm() from the server but SignInForm is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component."
+				);
+			},
+			"[project]/components/auth/sign-in-form.tsx",
+			"SignInForm"
+		);
+	},
+	51871,
+	(a) => {
+		"use strict";
+		a.i(40788);
+		var b = a.i(82816);
+		a.n(b);
+	},
+	74082,
+	(a) => {
+		"use strict";
+		var b = a.i(51432),
+			c = a.i(19959),
+			d = a.i(51871);
+		a.s([
+			"default",
+			0,
+			function () {
+				return (0, b.jsx)("main", {
+					className: c.default.authShell,
+					children: (0, b.jsxs)("section", {
+						className: c.default.authCard,
+						children: [
+							(0, b.jsxs)("div", {
+								className: c.default.heroCard,
+								children: [
+									(0, b.jsx)("p", {
+										className: c.default.kicker,
+										children: "Access OmniEdu",
+									}),
+									(0, b.jsx)("h1", {
+										children: "Sign in to your tenant workspace.",
+									}),
+									(0, b.jsx)("p", {
+										children:
+											"This screen is wired for React Hook Form and Zod validation so you can connect it to JWT issuance, refresh rotation, MFA, and audit logging next.",
+									}),
+								],
+							}),
+							(0, b.jsx)(d.SignInForm, {}),
+						],
+					}),
+				});
+			},
+		]);
+	},
+	51398,
+	(a) => {
+		a.n(a.i(74082));
+	},
+];
 
 //# sourceMappingURL=%5Broot-of-the-server%5D__12kjsq7._.js.map

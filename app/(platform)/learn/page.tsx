@@ -13,7 +13,8 @@ const learningTracks = [
 	},
 	{
 		title: "Teacher Enablement",
-		summary: "Launch sequences for curriculum teams, educators, and administrators.",
+		summary:
+			"Launch sequences for curriculum teams, educators, and administrators.",
 	},
 ];
 

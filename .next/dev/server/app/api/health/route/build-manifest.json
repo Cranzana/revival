@@ -1,9 +1,9 @@
 {
-  "devFiles": [],
-  "ampDevFiles": [],
-  "polyfillFiles": [],
-  "lowPriorityFiles": [],
-  "rootMainFiles": [],
-  "pages": {},
-  "ampFirstPages": []
+	"devFiles": [],
+	"ampDevFiles": [],
+	"polyfillFiles": [],
+	"lowPriorityFiles": [],
+	"rootMainFiles": [],
+	"pages": {},
+	"ampFirstPages": []
 }

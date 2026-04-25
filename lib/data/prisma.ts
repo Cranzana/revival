@@ -14,7 +14,11 @@ export async function getPrismaClient() {
 	}
 
 	const prismaModule = await import("@prisma/client");
-	const PrismaClient = (prismaModule as { PrismaClient?: new (...args: unknown[]) => PrismaClientInstance }).PrismaClient;
+	const PrismaClient = (
+		prismaModule as {
+			PrismaClient?: new (...args: unknown[]) => PrismaClientInstance;
+		}
+	).PrismaClient;
 
 	if (!PrismaClient) {
 		throw new Error(

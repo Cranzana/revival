@@ -25,8 +25,8 @@ export async function signAccessToken(payload: AccessTokenPayload) {
 
 export async function verifyAccessToken(token: string) {
 	const { payload } = await jwtVerify(token, getSecret());
-	
-return payload as unknown as AccessTokenPayload;
+
+	return payload as unknown as AccessTokenPayload;
 }
 
 export function decodeAccessToken(token: string) {

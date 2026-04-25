@@ -23,7 +23,10 @@ function splitPathEnv(pathValue) {
 }
 
 async function resolveBash() {
-	if (process.env.SCRAMJET_BASH && (await fileExists(process.env.SCRAMJET_BASH))) {
+	if (
+		process.env.SCRAMJET_BASH &&
+		(await fileExists(process.env.SCRAMJET_BASH))
+	) {
 		return process.env.SCRAMJET_BASH;
 	}
 
@@ -62,7 +65,7 @@ async function resolveBash() {
 			"Unable to find a usable bash executable.",
 			"On Windows, install Git for Windows and make sure Git Bash is available,",
 			"or set SCRAMJET_BASH to a bash executable path.",
-		].join(" "),
+		].join(" ")
 	);
 }
 

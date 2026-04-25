@@ -9,11 +9,7 @@ type ButtonProps = {
 	kind?: "primary" | "secondary" | "ghost";
 };
 
-export function Button({
-	children,
-	href,
-	kind = "primary",
-}: ButtonProps) {
+export function Button({ children, href, kind = "primary" }: ButtonProps) {
 	const className = [
 		styles.button,
 		kind === "secondary" ? styles.buttonSecondary : "",

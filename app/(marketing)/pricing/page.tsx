@@ -6,7 +6,8 @@ const tiers = [
 	{
 		name: "Campus Starter",
 		price: "$79",
-		description: "For a single learning site with core proxy and curriculum tools.",
+		description:
+			"For a single learning site with core proxy and curriculum tools.",
 		features: ["1 tenant", "RBAC basics", "Proxy lab access"],
 	},
 	{
@@ -19,7 +20,11 @@ const tiers = [
 		name: "Omni Enterprise",
 		price: "Custom",
 		description: "For districts and organizations deploying OmniEdu at scale.",
-		features: ["Dedicated infrastructure", "SSO and MFA rollout", "Kubernetes support"],
+		features: [
+			"Dedicated infrastructure",
+			"SSO and MFA rollout",
+			"Kubernetes support",
+		],
 	},
 ];
 

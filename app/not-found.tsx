@@ -16,7 +16,10 @@ export default function NotFound() {
 					<Link href="/" className={styles.button}>
 						Return home
 					</Link>
-					<Link href="/dashboard" className={`${styles.button} ${styles.buttonSecondary}`}>
+					<Link
+						href="/dashboard"
+						className={`${styles.button} ${styles.buttonSecondary}`}
+					>
 						Open dashboard
 					</Link>
 				</div>

@@ -1,3 +1,3 @@
 {
-  "/(platform)/proxy/page": "app/(platform)/proxy/page.js"
+	"/(platform)/proxy/page": "app/(platform)/proxy/page.js"
 }

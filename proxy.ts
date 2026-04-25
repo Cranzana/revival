@@ -33,8 +33,8 @@ export function proxy(request: NextRequest) {
 		Object.entries(securityHeaders).forEach(([key, value]) =>
 			rewriteResponse.headers.set(key, value)
 		);
-		
-return rewriteResponse;
+
+		return rewriteResponse;
 	}
 
 	if (startsWithAny(pathname, protectedRoutePrefixes) && !token) {
@@ -45,8 +45,8 @@ return rewriteResponse;
 		Object.entries(securityHeaders).forEach(([key, value]) =>
 			response.headers.set(key, value)
 		);
-		
-return response;
+
+		return response;
 	}
 
 	if (
@@ -61,8 +61,8 @@ return response;
 		Object.entries(securityHeaders).forEach(([key, value]) =>
 			response.headers.set(key, value)
 		);
-		
-return response;
+
+		return response;
 	}
 
 	const response = NextResponse.next();
@@ -72,8 +72,8 @@ return response;
 	Object.entries(securityHeaders).forEach(([key, value]) =>
 		response.headers.set(key, value)
 	);
-	
-return response;
+
+	return response;
 }
 
 export const config = {

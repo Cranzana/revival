@@ -1,3 +1,276 @@
 globalThis.__RSC_MANIFEST = globalThis.__RSC_MANIFEST || {};
-globalThis.__RSC_MANIFEST["/_global-error/page"] = {"moduleLoading":{"prefix":"","crossOrigin":null},"clientModules":{"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/client/components/layout-router.js <module evaluation>":{"id":95673,"name":"*","chunks":["/_next/static/chunks/15hdj6f4ttblm.js","/_next/static/chunks/0sg0gbm~3q6-s.js"],"async":false},"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/client/components/layout-router.js":{"id":95673,"name":"*","chunks":["/_next/static/chunks/15hdj6f4ttblm.js","/_next/static/chunks/0sg0gbm~3q6-s.js"],"async":false},"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/client/components/render-from-template-context.js <module evaluation>":{"id":92437,"name":"*","chunks":["/_next/static/chunks/15hdj6f4ttblm.js","/_next/static/chunks/0sg0gbm~3q6-s.js"],"async":false},"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/client/components/render-from-template-context.js":{"id":92437,"name":"*","chunks":["/_next/static/chunks/15hdj6f4ttblm.js","/_next/static/chunks/0sg0gbm~3q6-s.js"],"async":false},"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/client/components/client-page.js <module evaluation>":{"id":3419,"name":"*","chunks":["/_next/static/chunks/15hdj6f4ttblm.js","/_next/static/chunks/0sg0gbm~3q6-s.js"],"async":false},"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/client/components/client-page.js":{"id":3419,"name":"*","chunks":["/_next/static/chunks/15hdj6f4ttblm.js","/_next/static/chunks/0sg0gbm~3q6-s.js"],"async":false},"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/client/components/client-segment.js <module evaluation>":{"id":14122,"name":"*","chunks":["/_next/static/chunks/15hdj6f4ttblm.js","/_next/static/chunks/0sg0gbm~3q6-s.js"],"async":false},"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/client/components/client-segment.js":{"id":14122,"name":"*","chunks":["/_next/static/chunks/15hdj6f4ttblm.js","/_next/static/chunks/0sg0gbm~3q6-s.js"],"async":false},"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/client/components/http-access-fallback/error-boundary.js <module evaluation>":{"id":77612,"name":"*","chunks":["/_next/static/chunks/15hdj6f4ttblm.js","/_next/static/chunks/0sg0gbm~3q6-s.js"],"async":false},"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/client/components/http-access-fallback/error-boundary.js":{"id":77612,"name":"*","chunks":["/_next/static/chunks/15hdj6f4ttblm.js","/_next/static/chunks/0sg0gbm~3q6-s.js"],"async":false},"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/lib/framework/boundary-components.js <module evaluation>":{"id":71037,"name":"*","chunks":["/_next/static/chunks/15hdj6f4ttblm.js","/_next/static/chunks/0sg0gbm~3q6-s.js"],"async":false},"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/lib/framework/boundary-components.js":{"id":71037,"name":"*","chunks":["/_next/static/chunks/15hdj6f4ttblm.js","/_next/static/chunks/0sg0gbm~3q6-s.js"],"async":false},"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/lib/metadata/generate/icon-mark.js <module evaluation>":{"id":8364,"name":"*","chunks":["/_next/static/chunks/15hdj6f4ttblm.js","/_next/static/chunks/0sg0gbm~3q6-s.js"],"async":false},"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/lib/metadata/generate/icon-mark.js":{"id":8364,"name":"*","chunks":["/_next/static/chunks/15hdj6f4ttblm.js","/_next/static/chunks/0sg0gbm~3q6-s.js"],"async":false},"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>":{"id":76293,"name":"*","chunks":["/_next/static/chunks/15hdj6f4ttblm.js","/_next/static/chunks/0sg0gbm~3q6-s.js"],"async":false},"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/client/components/builtin/global-error.js":{"id":76293,"name":"*","chunks":["/_next/static/chunks/15hdj6f4ttblm.js","/_next/static/chunks/0sg0gbm~3q6-s.js"],"async":false}},"ssrModuleMapping":{"95673":{"*":{"id":36835,"name":"*","chunks":["server/chunks/ssr/[root-of-the-server]__00cg37e._.js","server/chunks/ssr/0.ul_next_dist_11h_7_k._.js"],"async":false}},"92437":{"*":{"id":62659,"name":"*","chunks":["server/chunks/ssr/[root-of-the-server]__00cg37e._.js","server/chunks/ssr/0.ul_next_dist_11h_7_k._.js"],"async":false}},"3419":{"*":{"id":25302,"name":"*","chunks":["server/chunks/ssr/[root-of-the-server]__00cg37e._.js","server/chunks/ssr/0.ul_next_dist_11h_7_k._.js"],"async":false}},"14122":{"*":{"id":1946,"name":"*","chunks":["server/chunks/ssr/[root-of-the-server]__00cg37e._.js","server/chunks/ssr/0.ul_next_dist_11h_7_k._.js"],"async":false}},"77612":{"*":{"id":81257,"name":"*","chunks":["server/chunks/ssr/[root-of-the-server]__00cg37e._.js","server/chunks/ssr/0.ul_next_dist_11h_7_k._.js"],"async":false}},"71037":{"*":{"id":20549,"name":"*","chunks":["server/chunks/ssr/[root-of-the-server]__00cg37e._.js","server/chunks/ssr/0.ul_next_dist_11h_7_k._.js"],"async":false}},"8364":{"*":{"id":43087,"name":"*","chunks":["server/chunks/ssr/[root-of-the-server]__00cg37e._.js","server/chunks/ssr/0.ul_next_dist_11h_7_k._.js"],"async":false}},"76293":{"*":{"id":95797,"name":"*","chunks":["server/chunks/ssr/[root-of-the-server]__00cg37e._.js","server/chunks/ssr/0.ul_next_dist_11h_7_k._.js"],"async":false}}},"edgeSSRModuleMapping":{},"rscModuleMapping":{"95673":{"*":{"id":714,"name":"*","chunks":[],"async":false}},"92437":{"*":{"id":46986,"name":"*","chunks":[],"async":false}},"3419":{"*":{"id":74855,"name":"*","chunks":[],"async":false}},"14122":{"*":{"id":7965,"name":"*","chunks":[],"async":false}},"77612":{"*":{"id":33197,"name":"*","chunks":[],"async":false}},"71037":{"*":{"id":62732,"name":"*","chunks":[],"async":false}},"8364":{"*":{"id":59966,"name":"*","chunks":[],"async":false}},"76293":{"*":{"id":41108,"name":"*","chunks":[],"async":false}}},"edgeRscModuleMapping":{},"entryCSSFiles":{"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/client/components/builtin/global-error":[]},"entryJSFiles":{"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/client/components/builtin/global-error":["static/chunks/15hdj6f4ttblm.js","static/chunks/0sg0gbm~3q6-s.js"]}};
-
+globalThis.__RSC_MANIFEST["/_global-error/page"] = {
+	moduleLoading: { prefix: "", crossOrigin: null },
+	clientModules: {
+		"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/client/components/layout-router.js <module evaluation>":
+			{
+				id: 95673,
+				name: "*",
+				chunks: [
+					"/_next/static/chunks/15hdj6f4ttblm.js",
+					"/_next/static/chunks/0sg0gbm~3q6-s.js",
+				],
+				async: false,
+			},
+		"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/client/components/layout-router.js":
+			{
+				id: 95673,
+				name: "*",
+				chunks: [
+					"/_next/static/chunks/15hdj6f4ttblm.js",
+					"/_next/static/chunks/0sg0gbm~3q6-s.js",
+				],
+				async: false,
+			},
+		"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/client/components/render-from-template-context.js <module evaluation>":
+			{
+				id: 92437,
+				name: "*",
+				chunks: [
+					"/_next/static/chunks/15hdj6f4ttblm.js",
+					"/_next/static/chunks/0sg0gbm~3q6-s.js",
+				],
+				async: false,
+			},
+		"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/client/components/render-from-template-context.js":
+			{
+				id: 92437,
+				name: "*",
+				chunks: [
+					"/_next/static/chunks/15hdj6f4ttblm.js",
+					"/_next/static/chunks/0sg0gbm~3q6-s.js",
+				],
+				async: false,
+			},
+		"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/client/components/client-page.js <module evaluation>":
+			{
+				id: 3419,
+				name: "*",
+				chunks: [
+					"/_next/static/chunks/15hdj6f4ttblm.js",
+					"/_next/static/chunks/0sg0gbm~3q6-s.js",
+				],
+				async: false,
+			},
+		"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/client/components/client-page.js":
+			{
+				id: 3419,
+				name: "*",
+				chunks: [
+					"/_next/static/chunks/15hdj6f4ttblm.js",
+					"/_next/static/chunks/0sg0gbm~3q6-s.js",
+				],
+				async: false,
+			},
+		"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/client/components/client-segment.js <module evaluation>":
+			{
+				id: 14122,
+				name: "*",
+				chunks: [
+					"/_next/static/chunks/15hdj6f4ttblm.js",
+					"/_next/static/chunks/0sg0gbm~3q6-s.js",
+				],
+				async: false,
+			},
+		"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/client/components/client-segment.js":
+			{
+				id: 14122,
+				name: "*",
+				chunks: [
+					"/_next/static/chunks/15hdj6f4ttblm.js",
+					"/_next/static/chunks/0sg0gbm~3q6-s.js",
+				],
+				async: false,
+			},
+		"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/client/components/http-access-fallback/error-boundary.js <module evaluation>":
+			{
+				id: 77612,
+				name: "*",
+				chunks: [
+					"/_next/static/chunks/15hdj6f4ttblm.js",
+					"/_next/static/chunks/0sg0gbm~3q6-s.js",
+				],
+				async: false,
+			},
+		"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/client/components/http-access-fallback/error-boundary.js":
+			{
+				id: 77612,
+				name: "*",
+				chunks: [
+					"/_next/static/chunks/15hdj6f4ttblm.js",
+					"/_next/static/chunks/0sg0gbm~3q6-s.js",
+				],
+				async: false,
+			},
+		"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/lib/framework/boundary-components.js <module evaluation>":
+			{
+				id: 71037,
+				name: "*",
+				chunks: [
+					"/_next/static/chunks/15hdj6f4ttblm.js",
+					"/_next/static/chunks/0sg0gbm~3q6-s.js",
+				],
+				async: false,
+			},
+		"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/lib/framework/boundary-components.js":
+			{
+				id: 71037,
+				name: "*",
+				chunks: [
+					"/_next/static/chunks/15hdj6f4ttblm.js",
+					"/_next/static/chunks/0sg0gbm~3q6-s.js",
+				],
+				async: false,
+			},
+		"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/lib/metadata/generate/icon-mark.js <module evaluation>":
+			{
+				id: 8364,
+				name: "*",
+				chunks: [
+					"/_next/static/chunks/15hdj6f4ttblm.js",
+					"/_next/static/chunks/0sg0gbm~3q6-s.js",
+				],
+				async: false,
+			},
+		"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/esm/lib/metadata/generate/icon-mark.js":
+			{
+				id: 8364,
+				name: "*",
+				chunks: [
+					"/_next/static/chunks/15hdj6f4ttblm.js",
+					"/_next/static/chunks/0sg0gbm~3q6-s.js",
+				],
+				async: false,
+			},
+		"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>":
+			{
+				id: 76293,
+				name: "*",
+				chunks: [
+					"/_next/static/chunks/15hdj6f4ttblm.js",
+					"/_next/static/chunks/0sg0gbm~3q6-s.js",
+				],
+				async: false,
+			},
+		"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/client/components/builtin/global-error.js":
+			{
+				id: 76293,
+				name: "*",
+				chunks: [
+					"/_next/static/chunks/15hdj6f4ttblm.js",
+					"/_next/static/chunks/0sg0gbm~3q6-s.js",
+				],
+				async: false,
+			},
+	},
+	ssrModuleMapping: {
+		95673: {
+			"*": {
+				id: 36835,
+				name: "*",
+				chunks: [
+					"server/chunks/ssr/[root-of-the-server]__00cg37e._.js",
+					"server/chunks/ssr/0.ul_next_dist_11h_7_k._.js",
+				],
+				async: false,
+			},
+		},
+		92437: {
+			"*": {
+				id: 62659,
+				name: "*",
+				chunks: [
+					"server/chunks/ssr/[root-of-the-server]__00cg37e._.js",
+					"server/chunks/ssr/0.ul_next_dist_11h_7_k._.js",
+				],
+				async: false,
+			},
+		},
+		3419: {
+			"*": {
+				id: 25302,
+				name: "*",
+				chunks: [
+					"server/chunks/ssr/[root-of-the-server]__00cg37e._.js",
+					"server/chunks/ssr/0.ul_next_dist_11h_7_k._.js",
+				],
+				async: false,
+			},
+		},
+		14122: {
+			"*": {
+				id: 1946,
+				name: "*",
+				chunks: [
+					"server/chunks/ssr/[root-of-the-server]__00cg37e._.js",
+					"server/chunks/ssr/0.ul_next_dist_11h_7_k._.js",
+				],
+				async: false,
+			},
+		},
+		77612: {
+			"*": {
+				id: 81257,
+				name: "*",
+				chunks: [
+					"server/chunks/ssr/[root-of-the-server]__00cg37e._.js",
+					"server/chunks/ssr/0.ul_next_dist_11h_7_k._.js",
+				],
+				async: false,
+			},
+		},
+		71037: {
+			"*": {
+				id: 20549,
+				name: "*",
+				chunks: [
+					"server/chunks/ssr/[root-of-the-server]__00cg37e._.js",
+					"server/chunks/ssr/0.ul_next_dist_11h_7_k._.js",
+				],
+				async: false,
+			},
+		},
+		8364: {
+			"*": {
+				id: 43087,
+				name: "*",
+				chunks: [
+					"server/chunks/ssr/[root-of-the-server]__00cg37e._.js",
+					"server/chunks/ssr/0.ul_next_dist_11h_7_k._.js",
+				],
+				async: false,
+			},
+		},
+		76293: {
+			"*": {
+				id: 95797,
+				name: "*",
+				chunks: [
+					"server/chunks/ssr/[root-of-the-server]__00cg37e._.js",
+					"server/chunks/ssr/0.ul_next_dist_11h_7_k._.js",
+				],
+				async: false,
+			},
+		},
+	},
+	edgeSSRModuleMapping: {},
+	rscModuleMapping: {
+		95673: { "*": { id: 714, name: "*", chunks: [], async: false } },
+		92437: { "*": { id: 46986, name: "*", chunks: [], async: false } },
+		3419: { "*": { id: 74855, name: "*", chunks: [], async: false } },
+		14122: { "*": { id: 7965, name: "*", chunks: [], async: false } },
+		77612: { "*": { id: 33197, name: "*", chunks: [], async: false } },
+		71037: { "*": { id: 62732, name: "*", chunks: [], async: false } },
+		8364: { "*": { id: 59966, name: "*", chunks: [], async: false } },
+		76293: { "*": { id: 41108, name: "*", chunks: [], async: false } },
+	},
+	edgeRscModuleMapping: {},
+	entryCSSFiles: {
+		"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/client/components/builtin/global-error":
+			[],
+	},
+	entryJSFiles: {
+		"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/client/components/builtin/global-error":
+			["static/chunks/15hdj6f4ttblm.js", "static/chunks/0sg0gbm~3q6-s.js"],
+	},
+};

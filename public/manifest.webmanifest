@@ -1,16 +1,16 @@
 {
-  "name": "OmniEdu",
-  "short_name": "OmniEdu",
-  "description": "A multi-tenant learning platform with secure browsing and campus operations on a unified origin.",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#07131d",
-  "theme_color": "#07131d",
-  "icons": [
-    {
-      "src": "/assets/omniedu-logo.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ]
+	"name": "OmniEdu",
+	"short_name": "OmniEdu",
+	"description": "A multi-tenant learning platform with secure browsing and campus operations on a unified origin.",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#07131d",
+	"theme_color": "#07131d",
+	"icons": [
+		{
+			"src": "/assets/omniedu-logo.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
 }

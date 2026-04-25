@@ -7,7 +7,10 @@ import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import next from "next";
 import { rspack } from "@rspack/core";
-import { logging as wispLogging, server as wisp } from "@mercuryworkshop/wisp-js/server";
+import {
+	logging as wispLogging,
+	server as wisp,
+} from "@mercuryworkshop/wisp-js/server";
 import { baremuxPath } from "@mercuryworkshop/bare-mux/node";
 import { epoxyPath } from "@mercuryworkshop/epoxy-transport";
 import { libcurlPath } from "@mercuryworkshop/libcurl-transport";
@@ -38,7 +41,10 @@ const fastify = Fastify({
 				res.setHeader("Cross-Origin-Opener-Policy", "same-origin");
 				res.setHeader("Cross-Origin-Embedder-Policy", "require-corp");
 				res.setHeader("Cross-Origin-Resource-Policy", "same-origin");
-				res.setHeader("Permissions-Policy", "camera=(), geolocation=(), microphone=(), payment=(), usb=()");
+				res.setHeader(
+					"Permissions-Policy",
+					"camera=(), geolocation=(), microphone=(), payment=(), usb=()"
+				);
 				res.setHeader("Referrer-Policy", "strict-origin-when-cross-origin");
 				res.setHeader("X-Content-Type-Options", "nosniff");
 				res.setHeader("X-Frame-Options", "SAMEORIGIN");

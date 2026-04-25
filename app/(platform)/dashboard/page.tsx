@@ -23,8 +23,8 @@ export default function DashboardPage() {
 					<p className={styles.kicker}>Reliability</p>
 					<h2>99.95% target uptime</h2>
 					<p>
-						Backed by SSR, response caching, and an explicit deployment stack for
-						containerized hosting.
+						Backed by SSR, response caching, and an explicit deployment stack
+						for containerized hosting.
 					</p>
 				</Card>
 				<Card>
