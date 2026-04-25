@@ -7,6 +7,10 @@ COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
 RUN pnpm install --frozen-lockfile
 
 FROM deps AS builder
+ARG NEXT_PUBLIC_APP_URL
+ARG NEXT_PUBLIC_DEFAULT_TENANT=demo
+ENV NEXT_PUBLIC_APP_URL=$NEXT_PUBLIC_APP_URL
+ENV NEXT_PUBLIC_DEFAULT_TENANT=$NEXT_PUBLIC_DEFAULT_TENANT
 COPY . .
 RUN pnpm build:scramjet && pnpm build:web
 
