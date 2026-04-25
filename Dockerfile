@@ -9,10 +9,17 @@ RUN pnpm install --frozen-lockfile
 FROM deps AS builder
 ARG NEXT_PUBLIC_APP_URL
 ARG NEXT_PUBLIC_DEFAULT_TENANT=demo
+ARG SCRAMJET_REBUILD=0
 ENV NEXT_PUBLIC_APP_URL=$NEXT_PUBLIC_APP_URL
 ENV NEXT_PUBLIC_DEFAULT_TENANT=$NEXT_PUBLIC_DEFAULT_TENANT
 COPY . .
-RUN pnpm build:scramjet && pnpm build:web
+RUN if [ "$SCRAMJET_REBUILD" = "1" ]; then \
+		pnpm build:scramjet; \
+	elif [ ! -f dist/scramjet.all.js ] || [ ! -f dist/scramjet.sync.js ] || [ ! -f dist/scramjet.wasm.wasm ]; then \
+		echo "Scramjet dist assets are missing. Build them locally first, or build this image with SCRAMJET_REBUILD=1 after installing the Rust/WASM toolchain."; \
+		exit 1; \
+	fi
+RUN pnpm build:web
 
 FROM base AS runner
 ENV NODE_ENV=production
