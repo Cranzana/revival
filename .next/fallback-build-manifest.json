@@ -1,13 +1,13 @@
 {
-  "pages": {
-    "/_app": []
-  },
-  "devFiles": [],
-  "polyfillFiles": [],
-  "lowPriorityFiles": [
-    "static/Cqs9Q4SLXF_QKw2Q3NSyW/_buildManifest.js",
-    "static/Cqs9Q4SLXF_QKw2Q3NSyW/_ssgManifest.js",
-    "static/Cqs9Q4SLXF_QKw2Q3NSyW/_clientMiddlewareManifest.js"
-  ],
-  "rootMainFiles": []
+	"pages": {
+		"/_app": []
+	},
+	"devFiles": [],
+	"polyfillFiles": [],
+	"lowPriorityFiles": [
+		"static/f0OwEuPATkIs0PgqHyfUL/_buildManifest.js",
+		"static/f0OwEuPATkIs0PgqHyfUL/_ssgManifest.js",
+		"static/f0OwEuPATkIs0PgqHyfUL/_clientMiddlewareManifest.js"
+	],
+	"rootMainFiles": []
 }

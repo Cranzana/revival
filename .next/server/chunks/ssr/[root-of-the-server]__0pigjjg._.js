@@ -1,3 +1,227 @@
-module.exports=[17226,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(23810);a.n(d("[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/client/script.js <module evaluation>"))},25138,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(23810);a.n(d("[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/client/script.js"))},81903,a=>{"use strict";a.i(17226);var b=a.i(25138);a.n(b)},31150,(a,b,c)=>{b.exports=a.r(81903)},18838,a=>{a.v({className:"rajdhani_889b827b-module__-iqHGW__className",variable:"rajdhani_889b827b-module__-iqHGW__variable"})},54683,a=>{a.v({className:"atkinson_hyperlegible_dfcdd788-module__fJGmlq__className",variable:"atkinson_hyperlegible_dfcdd788-module__fJGmlq__variable"})},44943,a=>{a.v({className:"jetbrains_mono_96346ae-module__W2t6fG__className",variable:"jetbrains_mono_96346ae-module__W2t6fG__variable"})},96409,a=>{"use strict";a.s(["BlankTitle",()=>b]);let b=(0,a.i(23810).registerClientReference)(function(){throw Error("Attempted to call BlankTitle() from the server but BlankTitle is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/components/blank-title.tsx <module evaluation>","BlankTitle")},20855,a=>{"use strict";a.s(["BlankTitle",()=>b]);let b=(0,a.i(23810).registerClientReference)(function(){throw Error("Attempted to call BlankTitle() from the server but BlankTitle is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/components/blank-title.tsx","BlankTitle")},43551,a=>{"use strict";a.i(96409);var b=a.i(20855);a.n(b)},31555,a=>{"use strict";a.s(["AppProviders",()=>b]);let b=(0,a.i(23810).registerClientReference)(function(){throw Error("Attempted to call AppProviders() from the server but AppProviders is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/components/providers/app-providers.tsx <module evaluation>","AppProviders")},58481,a=>{"use strict";a.s(["AppProviders",()=>b]);let b=(0,a.i(23810).registerClientReference)(function(){throw Error("Attempted to call AppProviders() from the server but AppProviders is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/components/providers/app-providers.tsx","AppProviders")},9419,a=>{"use strict";a.i(31555);var b=a.i(58481);a.n(b)},33290,a=>{"use strict";var b=a.i(51432),c=a.i(31150),d=a.i(18838);let e={className:d.default.className,style:{fontFamily:"'Rajdhani', 'Rajdhani Fallback'",fontStyle:"normal"}};null!=d.default.variable&&(e.variable=d.default.variable);var f=a.i(54683);let g={className:f.default.className,style:{fontFamily:"'Atkinson Hyperlegible', 'Atkinson Hyperlegible Fallback'",fontStyle:"normal"}};null!=f.default.variable&&(g.variable=f.default.variable);var h=a.i(44943);let i={className:h.default.className,style:{fontFamily:"'JetBrains Mono', 'JetBrains Mono Fallback'",fontStyle:"normal"}};null!=h.default.variable&&(i.variable=h.default.variable);var j=a.i(43551),k=a.i(9419);a.s(["default",0,function({children:a}){return(0,b.jsx)("html",{lang:"en",className:`${e.variable} ${g.variable} ${i.variable}`,children:(0,b.jsxs)("body",{children:[(0,b.jsx)(k.AppProviders,{children:a}),(0,b.jsx)(j.BlankTitle,{}),(0,b.jsx)(c.default,{src:"/baremux/index.js",strategy:"beforeInteractive"}),(0,b.jsx)(c.default,{src:"/scram/scramjet.all.js",strategy:"beforeInteractive"})]})})},"metadata",0,{title:"",description:"OmniEdu is a browser-style workspace with search and quick launch built on one fast Next.js origin.",applicationName:"OmniEdu",manifest:"/manifest.webmanifest",icons:{icon:"/assets/omniedu-logo.png"}}],33290)},70864,a=>{a.n(a.i(33290))}];
+module.exports = [
+	17226,
+	(a, b, c) => {
+		let { createClientModuleProxy: d } = a.r(23810);
+		a.n(
+			d(
+				"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/client/script.js <module evaluation>"
+			)
+		);
+	},
+	25138,
+	(a, b, c) => {
+		let { createClientModuleProxy: d } = a.r(23810);
+		a.n(
+			d(
+				"[project]/node_modules/.pnpm/next@16.2.4_@playwright+tes_531d8b397c25a2c72a4af9aac2d67e01/node_modules/next/dist/client/script.js"
+			)
+		);
+	},
+	81903,
+	(a) => {
+		"use strict";
+		a.i(17226);
+		var b = a.i(25138);
+		a.n(b);
+	},
+	31150,
+	(a, b, c) => {
+		b.exports = a.r(81903);
+	},
+	18838,
+	(a) => {
+		a.v({
+			className: "rajdhani_889b827b-module__-iqHGW__className",
+			variable: "rajdhani_889b827b-module__-iqHGW__variable",
+		});
+	},
+	54683,
+	(a) => {
+		a.v({
+			className: "atkinson_hyperlegible_dfcdd788-module__fJGmlq__className",
+			variable: "atkinson_hyperlegible_dfcdd788-module__fJGmlq__variable",
+		});
+	},
+	44943,
+	(a) => {
+		a.v({
+			className: "jetbrains_mono_96346ae-module__W2t6fG__className",
+			variable: "jetbrains_mono_96346ae-module__W2t6fG__variable",
+		});
+	},
+	96409,
+	(a) => {
+		"use strict";
+		a.s(["BlankTitle", () => b]);
+		let b = (0, a.i(23810).registerClientReference)(
+			function () {
+				throw Error(
+					"Attempted to call BlankTitle() from the server but BlankTitle is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component."
+				);
+			},
+			"[project]/components/blank-title.tsx <module evaluation>",
+			"BlankTitle"
+		);
+	},
+	20855,
+	(a) => {
+		"use strict";
+		a.s(["BlankTitle", () => b]);
+		let b = (0, a.i(23810).registerClientReference)(
+			function () {
+				throw Error(
+					"Attempted to call BlankTitle() from the server but BlankTitle is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component."
+				);
+			},
+			"[project]/components/blank-title.tsx",
+			"BlankTitle"
+		);
+	},
+	43551,
+	(a) => {
+		"use strict";
+		a.i(96409);
+		var b = a.i(20855);
+		a.n(b);
+	},
+	31555,
+	(a) => {
+		"use strict";
+		a.s(["AppProviders", () => b]);
+		let b = (0, a.i(23810).registerClientReference)(
+			function () {
+				throw Error(
+					"Attempted to call AppProviders() from the server but AppProviders is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component."
+				);
+			},
+			"[project]/components/providers/app-providers.tsx <module evaluation>",
+			"AppProviders"
+		);
+	},
+	58481,
+	(a) => {
+		"use strict";
+		a.s(["AppProviders", () => b]);
+		let b = (0, a.i(23810).registerClientReference)(
+			function () {
+				throw Error(
+					"Attempted to call AppProviders() from the server but AppProviders is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component."
+				);
+			},
+			"[project]/components/providers/app-providers.tsx",
+			"AppProviders"
+		);
+	},
+	9419,
+	(a) => {
+		"use strict";
+		a.i(31555);
+		var b = a.i(58481);
+		a.n(b);
+	},
+	33290,
+	(a) => {
+		"use strict";
+		var b = a.i(51432),
+			c = a.i(31150),
+			d = a.i(18838);
+		let e = {
+			className: d.default.className,
+			style: {
+				fontFamily: "'Rajdhani', 'Rajdhani Fallback'",
+				fontStyle: "normal",
+			},
+		};
+		null != d.default.variable && (e.variable = d.default.variable);
+		var f = a.i(54683);
+		let g = {
+			className: f.default.className,
+			style: {
+				fontFamily: "'Atkinson Hyperlegible', 'Atkinson Hyperlegible Fallback'",
+				fontStyle: "normal",
+			},
+		};
+		null != f.default.variable && (g.variable = f.default.variable);
+		var h = a.i(44943);
+		let i = {
+			className: h.default.className,
+			style: {
+				fontFamily: "'JetBrains Mono', 'JetBrains Mono Fallback'",
+				fontStyle: "normal",
+			},
+		};
+		function j() {
+			return (0, b.jsxs)(b.Fragment, {
+				children: [
+					(0, b.jsx)(c.default, {
+						id: "adsterra-popunder",
+						src: "https://pl29244222.profitablecpmratenetwork.com/ec/5f/54/ec5f54c7e8b43596539c021f748f78a5.js",
+						strategy: "afterInteractive",
+					}),
+					(0, b.jsx)(c.default, {
+						id: "adsterra-social-bar",
+						src: "https://pl29244223.profitablecpmratenetwork.com/6e/2b/ff/6e2bffb25f5043dfa0de77f53e18427d.js",
+						strategy: "afterInteractive",
+					}),
+					(0, b.jsx)(c.default, {
+						id: "adsterra-native-banner",
+						async: !0,
+						"data-cfasync": "false",
+						src: "https://pl29244224.profitablecpmratenetwork.com/d88ec711449316a76c844d87610a88f9/invoke.js",
+						strategy: "afterInteractive",
+					}),
+					(0, b.jsx)("div", {
+						id: "container-d88ec711449316a76c844d87610a88f9",
+					}),
+				],
+			});
+		}
+		null != h.default.variable && (i.variable = h.default.variable);
+		var k = a.i(43551),
+			l = a.i(9419);
+		a.s(
+			[
+				"default",
+				0,
+				function ({ children: a }) {
+					return (0, b.jsx)("html", {
+						lang: "en",
+						className: `${e.variable} ${g.variable} ${i.variable}`,
+						children: (0, b.jsxs)("body", {
+							children: [
+								(0, b.jsx)(l.AppProviders, { children: a }),
+								(0, b.jsx)(k.BlankTitle, {}),
+								(0, b.jsx)(c.default, {
+									src: "/baremux/index.js",
+									strategy: "beforeInteractive",
+								}),
+								(0, b.jsx)(c.default, {
+									src: "/scram/scramjet.all.js",
+									strategy: "beforeInteractive",
+								}),
+								(0, b.jsx)(j, {}),
+							],
+						}),
+					});
+				},
+				"metadata",
+				0,
+				{
+					title: "",
+					description:
+						"OmniEdu is a browser-style workspace with search and quick launch built on one fast Next.js origin.",
+					applicationName: "OmniEdu",
+					manifest: "/manifest.webmanifest",
+					icons: { icon: "/assets/omniedu-logo.png" },
+				},
+			],
+			33290
+		);
+	},
+	70864,
+	(a) => {
+		a.n(a.i(33290));
+	},
+];
 
 //# sourceMappingURL=%5Broot-of-the-server%5D__0pigjjg._.js.map

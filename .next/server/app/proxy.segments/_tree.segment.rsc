@@ -6,4 +6,4 @@
 :HL["/_next/static/media/ed5f1f9bced69653-s.p.0t~r0znp74~xb.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/chunks/0r01b7b74y3wn.css","style"]
 :HL["/assets/omniedu-logo.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"(platform)","param":null,"prefetchHints":0,"slots":{"children":{"name":"proxy","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Cqs9Q4SLXF_QKw2Q3NSyW"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"(platform)","param":null,"prefetchHints":0,"slots":{"children":{"name":"proxy","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"f0OwEuPATkIs0PgqHyfUL"}

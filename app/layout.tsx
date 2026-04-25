@@ -6,6 +6,7 @@ import {
 	Rajdhani,
 } from "next/font/google";
 
+import { AdsterraAds } from "@components/adsterra-ads";
 import { BlankTitle } from "@components/blank-title";
 import { AppProviders } from "@components/providers/app-providers";
 
@@ -55,6 +56,7 @@ export default function RootLayout({
 				<BlankTitle />
 				<Script src="/baremux/index.js" strategy="beforeInteractive" />
 				<Script src="/scram/scramjet.all.js" strategy="beforeInteractive" />
+				<AdsterraAds />
 			</body>
 		</html>
 	);
