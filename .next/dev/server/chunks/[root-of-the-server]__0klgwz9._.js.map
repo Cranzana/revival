@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/thril/Documents/revival/app/api/health/route.ts"],"sourcesContent":["export function GET() {\n\treturn Response.json({\n\t\tok: true,\n\t\tservice: \"omniedu-web\",\n\t\tfeatures: [\"app-router\", \"proxy-lab\", \"middleware\", \"pwa\"],\n\t\ttimestamp: new Date().toISOString(),\n\t});\n}\n"],"names":["GET","Response","json","ok","service","features","timestamp","Date","toISOString"],"mappings":";;;;AAAO,SAASA;IACf,OAAOC,SAASC,IAAI,CAAC;QACpBC,IAAI;QACJC,SAAS;QACTC,UAAU;YAAC;YAAc;YAAa;YAAc;SAAM;QAC1DC,WAAW,IAAIC,OAAOC,WAAW;IAClC;AACD"}}]
+}

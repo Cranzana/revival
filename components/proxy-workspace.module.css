@@ -1,0 +1,401 @@
+.shell {
+	position: relative;
+	min-height: 100vh;
+	padding: 2.5rem;
+	overflow: hidden;
+}
+
+.aurora {
+	position: absolute;
+	inset: 0;
+	background:
+		radial-gradient(
+			circle at 15% 20%,
+			rgba(82, 163, 214, 0.18),
+			transparent 25%
+		),
+		radial-gradient(
+			circle at 85% 15%,
+			rgba(255, 123, 56, 0.16),
+			transparent 20%
+		),
+		radial-gradient(
+			circle at 50% 100%,
+			rgba(98, 211, 176, 0.1),
+			transparent 28%
+		);
+	pointer-events: none;
+}
+
+.hero,
+.workspace {
+	position: relative;
+	z-index: 1;
+}
+
+.hero {
+	display: grid;
+	grid-template-columns: minmax(0, 1.6fr) minmax(18rem, 0.9fr);
+	gap: 1.5rem;
+	align-items: end;
+	margin-bottom: 1.5rem;
+}
+
+.brandColumn h1 {
+	margin: 0;
+	font-family: var(--font-display);
+	font-size: 4rem;
+	line-height: 0.95;
+	letter-spacing: 0;
+	max-width: 12ch;
+}
+
+.kicker,
+.panelLabel {
+	margin: 0 0 0.8rem;
+	font-family: var(--font-mono);
+	font-size: 0.74rem;
+	font-weight: 700;
+	letter-spacing: 0;
+	text-transform: uppercase;
+	color: var(--accent);
+}
+
+.lede {
+	max-width: 44rem;
+	margin: 1rem 0 0;
+	font-size: 1.05rem;
+	line-height: 1.7;
+	color: var(--muted);
+}
+
+.heroCard,
+.panel,
+.consolePanel,
+.viewportPanel {
+	border: 1px solid var(--line);
+	background: var(--panel);
+	backdrop-filter: blur(22px);
+	box-shadow: 0 28px 70px rgba(0, 0, 0, 0.26);
+}
+
+.heroCard {
+	display: grid;
+	gap: 1rem;
+	padding: 1.25rem;
+	border-radius: 1.5rem;
+}
+
+.metric {
+	display: grid;
+	gap: 0.2rem;
+}
+
+.metric span {
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	letter-spacing: 0;
+	color: var(--muted);
+}
+
+.metric strong {
+	font-size: 1rem;
+	color: var(--text);
+}
+
+.workspace {
+	display: grid;
+	grid-template-columns: minmax(17rem, 22rem) minmax(0, 1fr);
+	gap: 1.5rem;
+	align-items: start;
+}
+
+.sidebar,
+.consoleColumn {
+	display: grid;
+	gap: 1rem;
+}
+
+.panel,
+.consolePanel {
+	padding: 1.1rem;
+	border-radius: 1.3rem;
+}
+
+.quickList {
+	display: grid;
+	gap: 0.65rem;
+}
+
+.quickLink,
+.controls button,
+.actions button,
+.field select {
+	appearance: none;
+}
+
+.quickLink,
+.controls button,
+.actions button {
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	background: rgba(255, 255, 255, 0.04);
+	color: var(--text);
+	cursor: pointer;
+	transition:
+		transform 0.2s ease,
+		border-color 0.2s ease,
+		background 0.2s ease;
+}
+
+.quickLink:hover,
+.controls button:hover,
+.actions button:hover {
+	transform: translateY(-1px);
+	border-color: rgba(242, 170, 76, 0.42);
+	background: rgba(242, 170, 76, 0.08);
+}
+
+.quickLink {
+	display: grid;
+	gap: 0.2rem;
+	padding: 0.95rem 1rem;
+	border-radius: 1rem;
+	text-align: left;
+}
+
+.quickLink span {
+	font-weight: 600;
+}
+
+.quickLink small,
+.emptyState,
+.metaRow,
+.field span {
+	color: var(--muted);
+}
+
+.emptyState {
+	margin: 0;
+	line-height: 1.6;
+}
+
+.field {
+	display: grid;
+	gap: 0.45rem;
+	margin-top: 0.85rem;
+}
+
+.field span {
+	font-size: 0.82rem;
+}
+
+.field input,
+.field select,
+.addressBar {
+	width: 100%;
+	border-radius: 0.95rem;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	background: rgba(0, 0, 0, 0.22);
+	color: var(--text);
+	padding: 0.92rem 1rem;
+	outline: none;
+}
+
+.field input:focus,
+.field select:focus,
+.addressBar:focus {
+	border-color: var(--line-strong);
+	box-shadow: 0 0 0 1px rgba(242, 170, 76, 0.22);
+}
+
+.statusRow {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 1rem;
+}
+
+.statusRow h2 {
+	margin: 0;
+	font-family: var(--font-display);
+	font-size: 2rem;
+	line-height: 1.05;
+}
+
+.badges {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.6rem;
+	align-items: start;
+	justify-content: end;
+}
+
+.badge,
+.badgeMuted {
+	display: inline-flex;
+	align-items: center;
+	padding: 0.55rem 0.8rem;
+	border-radius: 999px;
+	font-size: 0.82rem;
+	font-family: var(--font-mono);
+}
+
+.badge {
+	background: rgba(90, 208, 162, 0.14);
+	color: var(--success);
+	border: 1px solid rgba(90, 208, 162, 0.24);
+}
+
+.badgeMuted {
+	background: rgba(255, 255, 255, 0.05);
+	color: var(--muted);
+	border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.omnibox {
+	display: grid;
+	grid-template-columns: auto minmax(0, 1fr) auto;
+	gap: 0.8rem;
+	margin-top: 1.2rem;
+}
+
+.controls,
+.actions {
+	display: flex;
+	gap: 0.55rem;
+}
+
+.controls button,
+.actions button {
+	padding: 0.95rem 1rem;
+	border-radius: 0.95rem;
+}
+
+.controls button:disabled,
+.actions button:disabled {
+	cursor: not-allowed;
+	opacity: 0.55;
+	transform: none;
+}
+
+.actions button:first-child {
+	background: linear-gradient(
+		135deg,
+		var(--accent) 0%,
+		var(--accent-strong) 100%
+	);
+	color: #1d1205;
+	border-color: transparent;
+	font-weight: 700;
+}
+
+.metaRow {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 1rem;
+	margin-top: 1rem;
+	font-size: 0.92rem;
+}
+
+.metaRow p {
+	margin: 0;
+}
+
+.metaRow span {
+	color: var(--text);
+}
+
+.errorBanner {
+	margin-top: 1rem;
+	padding: 0.9rem 1rem;
+	border-radius: 1rem;
+	border: 1px solid rgba(255, 127, 144, 0.32);
+	background: rgba(255, 127, 144, 0.1);
+	color: var(--danger);
+}
+
+.viewportPanel {
+	border-radius: 1.45rem;
+	overflow: hidden;
+}
+
+.viewportChrome {
+	display: flex;
+	gap: 0.45rem;
+	padding: 0.9rem 1rem;
+	border-bottom: 1px solid var(--line);
+	background: rgba(0, 0, 0, 0.16);
+}
+
+.viewportChrome span {
+	width: 0.78rem;
+	height: 0.78rem;
+	border-radius: 999px;
+	background: rgba(255, 255, 255, 0.16);
+}
+
+.viewport {
+	position: relative;
+	min-height: 68vh;
+	background: rgba(2, 9, 17, 0.72);
+}
+
+.frameMount {
+	min-height: inherit;
+}
+
+.loadingState {
+	position: absolute;
+	inset: 0;
+	display: grid;
+	place-items: center;
+	padding: 2rem;
+	color: var(--muted);
+	text-align: center;
+}
+
+.proxyFrame {
+	display: block;
+	width: 100%;
+	height: 68vh;
+	border: 0;
+	background: white;
+}
+
+@media (max-width: 1100px) {
+	.hero,
+	.workspace,
+	.omnibox {
+		grid-template-columns: 1fr;
+	}
+
+	.controls,
+	.actions {
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 720px) {
+	.shell {
+		padding: 1rem;
+	}
+
+	.brandColumn h1 {
+		font-size: 2.5rem;
+	}
+
+	.statusRow {
+		flex-direction: column;
+	}
+
+	.badges {
+		justify-content: start;
+	}
+
+	.viewport,
+	.proxyFrame {
+		min-height: 58vh;
+		height: 58vh;
+	}
+}

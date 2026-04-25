@@ -1,0 +1,356 @@
+/* [project]/components/omniedu.module.css [app-client] (css) */
+.omniedu-module__ZuS8GG__marketingShell {
+  padding: 2rem;
+  position: relative;
+}
+
+.omniedu-module__ZuS8GG__marketingShell:before {
+  content: "";
+  pointer-events: none;
+  background: radial-gradient(circle at 12% 18%, #59bdff2e, #0000 28%), radial-gradient(circle at 88% 10%, #ffad5c29, #0000 24%), radial-gradient(circle at 50% 100%, #4dd2a11f, #0000 32%);
+  position: absolute;
+  inset: 0;
+}
+
+.omniedu-module__ZuS8GG__marketingContent, .omniedu-module__ZuS8GG__platformShell, .omniedu-module__ZuS8GG__authShell {
+  z-index: 1;
+  position: relative;
+}
+
+.omniedu-module__ZuS8GG__topNav {
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
+  background: #08121bad;
+  border: 1px solid #ffffff14;
+  border-radius: 1.4rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.2rem;
+  display: flex;
+}
+
+.omniedu-module__ZuS8GG__wordmark {
+  align-items: center;
+  gap: .9rem;
+  display: inline-flex;
+}
+
+.omniedu-module__ZuS8GG__wordmark span {
+  display: grid;
+}
+
+.omniedu-module__ZuS8GG__wordmark strong {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.omniedu-module__ZuS8GG__wordmark small {
+  color: var(--muted);
+}
+
+.omniedu-module__ZuS8GG__wordmarkBadge {
+  object-fit: cover;
+  border-radius: .95rem;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.omniedu-module__ZuS8GG__topLinks, .omniedu-module__ZuS8GG__sidebarNav {
+  flex-wrap: wrap;
+  gap: .85rem;
+  display: flex;
+}
+
+.omniedu-module__ZuS8GG__topLinks a, .omniedu-module__ZuS8GG__navLink {
+  color: var(--muted);
+  border-radius: .95rem;
+  padding: .75rem .95rem;
+  transition: background .2s, color .2s, transform .2s;
+}
+
+.omniedu-module__ZuS8GG__topLinks a:hover, .omniedu-module__ZuS8GG__navLink:hover {
+  color: var(--text);
+  background: #ffffff0d;
+  transform: translateY(-1px);
+}
+
+.omniedu-module__ZuS8GG__heroGrid {
+  grid-template-columns: minmax(0, 1.4fr) minmax(18rem, .9fr);
+  align-items: stretch;
+  gap: 1.5rem;
+  display: grid;
+}
+
+.omniedu-module__ZuS8GG__heroCard, .omniedu-module__ZuS8GG__card, .omniedu-module__ZuS8GG__promoPanel, .omniedu-module__ZuS8GG__sidebar, .omniedu-module__ZuS8GG__pageHeader, .omniedu-module__ZuS8GG__formCard {
+  -webkit-backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
+  background: #08121bcc;
+  border: 1px solid #ffffff14;
+  border-radius: 1.5rem;
+  box-shadow: 0 30px 80px #0000003d;
+}
+
+.omniedu-module__ZuS8GG__heroCard {
+  padding: 2rem;
+}
+
+.omniedu-module__ZuS8GG__kicker {
+  font-family: var(--font-mono);
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 .9rem;
+  font-size: .76rem;
+  font-weight: 700;
+}
+
+.omniedu-module__ZuS8GG__heroCard h1, .omniedu-module__ZuS8GG__pageHeader h1, .omniedu-module__ZuS8GG__authCard h1 {
+  font-family: var(--font-display);
+  letter-spacing: 0;
+  max-width: 11ch;
+  margin: 0;
+  font-size: 4rem;
+  line-height: .95;
+}
+
+.omniedu-module__ZuS8GG__heroCard p, .omniedu-module__ZuS8GG__pageHeader p, .omniedu-module__ZuS8GG__metricList p, .omniedu-module__ZuS8GG__promoPanel p, .omniedu-module__ZuS8GG__authCard p {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.omniedu-module__ZuS8GG__heroActions {
+  flex-wrap: wrap;
+  gap: .9rem;
+  margin-top: 1.5rem;
+  display: flex;
+}
+
+.omniedu-module__ZuS8GG__button {
+  color: #1f1307;
+  cursor: pointer;
+  background: linear-gradient(135deg, #f2aa4c 0%, #ff7b38 100%);
+  border: 0;
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: .95rem 1.2rem;
+  font-weight: 700;
+  display: inline-flex;
+}
+
+.omniedu-module__ZuS8GG__buttonSecondary {
+  color: var(--text);
+  background: #ffffff0f;
+  border: 1px solid #ffffff14;
+}
+
+.omniedu-module__ZuS8GG__buttonGhost {
+  color: var(--muted);
+  background: none;
+  border: 1px solid #ffffff14;
+}
+
+.omniedu-module__ZuS8GG__stack, .omniedu-module__ZuS8GG__grid3, .omniedu-module__ZuS8GG__grid2, .omniedu-module__ZuS8GG__statsGrid {
+  gap: 1rem;
+  display: grid;
+}
+
+.omniedu-module__ZuS8GG__grid3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 1.5rem;
+}
+
+.omniedu-module__ZuS8GG__grid2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.omniedu-module__ZuS8GG__card {
+  padding: 1.2rem;
+}
+
+.omniedu-module__ZuS8GG__card h2, .omniedu-module__ZuS8GG__card h3, .omniedu-module__ZuS8GG__promoPanel h2 {
+  font-family: var(--font-display);
+  margin: 0 0 .65rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.omniedu-module__ZuS8GG__card ul, .omniedu-module__ZuS8GG__promoPanel ul {
+  color: var(--muted);
+  margin: 0;
+  padding-left: 1rem;
+  line-height: 1.7;
+}
+
+.omniedu-module__ZuS8GG__metricList {
+  gap: 1rem;
+  display: grid;
+}
+
+.omniedu-module__ZuS8GG__metricList strong {
+  font-family: var(--font-display);
+  font-size: 2.2rem;
+  display: block;
+}
+
+.omniedu-module__ZuS8GG__promoPanel {
+  padding: 1.5rem;
+}
+
+.omniedu-module__ZuS8GG__platformShell {
+  grid-template-columns: minmax(16rem, 18rem) minmax(0, 1fr);
+  gap: 1.2rem;
+  padding: 1.3rem;
+  display: grid;
+}
+
+.omniedu-module__ZuS8GG__sidebar {
+  align-content: start;
+  gap: 1rem;
+  min-height: calc(100vh - 2.6rem);
+  padding: 1.1rem;
+  display: grid;
+}
+
+.omniedu-module__ZuS8GG__sidebarCallout {
+  background: #ffffff0a;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.omniedu-module__ZuS8GG__sidebarCallout p, .omniedu-module__ZuS8GG__sidebarCallout small {
+  color: var(--muted);
+  margin: 0;
+}
+
+.omniedu-module__ZuS8GG__sidebarCallout strong {
+  margin: .3rem 0;
+  display: block;
+}
+
+.omniedu-module__ZuS8GG__platformContent {
+  gap: 1rem;
+  display: grid;
+}
+
+.omniedu-module__ZuS8GG__pageHeader {
+  padding: 1.4rem 1.5rem;
+}
+
+.omniedu-module__ZuS8GG__pageHeader h1 {
+  max-width: none;
+  font-size: 3rem;
+}
+
+.omniedu-module__ZuS8GG__table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: var(--font-mono);
+  font-size: .92rem;
+}
+
+.omniedu-module__ZuS8GG__table th, .omniedu-module__ZuS8GG__table td {
+  text-align: left;
+  border-bottom: 1px solid #ffffff14;
+  padding: .9rem .4rem;
+}
+
+.omniedu-module__ZuS8GG__statusPill {
+  color: var(--success);
+  font-family: var(--font-mono);
+  background: #5ad0a229;
+  border-radius: 999px;
+  align-items: center;
+  padding: .4rem .7rem;
+  font-size: .82rem;
+  display: inline-flex;
+}
+
+.omniedu-module__ZuS8GG__authShell {
+  place-items: center;
+  min-height: 100vh;
+  padding: 1.5rem;
+  display: grid;
+}
+
+.omniedu-module__ZuS8GG__authCard {
+  grid-template-columns: minmax(0, 1fr) minmax(18rem, 22rem);
+  gap: 1rem;
+  width: min(100%, 52rem);
+  display: grid;
+}
+
+.omniedu-module__ZuS8GG__authCard > div, .omniedu-module__ZuS8GG__formCard {
+  padding: 1.5rem;
+}
+
+.omniedu-module__ZuS8GG__formGrid {
+  gap: 1rem;
+  margin-bottom: 1rem;
+  display: grid;
+}
+
+.omniedu-module__ZuS8GG__field {
+  gap: .45rem;
+  display: grid;
+}
+
+.omniedu-module__ZuS8GG__field span {
+  color: var(--muted);
+  font-size: .88rem;
+}
+
+.omniedu-module__ZuS8GG__field input, .omniedu-module__ZuS8GG__field select {
+  width: 100%;
+  color: var(--text);
+  background: #0000002e;
+  border: 1px solid #ffffff14;
+  border-radius: .95rem;
+  padding: .9rem 1rem;
+}
+
+.omniedu-module__ZuS8GG__fieldError {
+  color: var(--danger);
+}
+
+.omniedu-module__ZuS8GG__inlineNotice {
+  color: var(--success);
+  background: #5ad0a21a;
+  border: 1px solid #5ad0a240;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  padding: .9rem 1rem;
+}
+
+.omniedu-module__ZuS8GG__tenantHero {
+  padding: 1.5rem;
+}
+
+@media (max-width: 960px) {
+  .omniedu-module__ZuS8GG__heroGrid, .omniedu-module__ZuS8GG__platformShell, .omniedu-module__ZuS8GG__authCard, .omniedu-module__ZuS8GG__grid3, .omniedu-module__ZuS8GG__grid2 {
+    grid-template-columns: 1fr;
+  }
+
+  .omniedu-module__ZuS8GG__sidebar {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 720px) {
+  .omniedu-module__ZuS8GG__marketingShell {
+    padding: 1rem;
+  }
+
+  .omniedu-module__ZuS8GG__heroCard h1, .omniedu-module__ZuS8GG__pageHeader h1, .omniedu-module__ZuS8GG__authCard h1 {
+    font-size: 2.75rem;
+  }
+
+  .omniedu-module__ZuS8GG__heroCard, .omniedu-module__ZuS8GG__card, .omniedu-module__ZuS8GG__promoPanel, .omniedu-module__ZuS8GG__sidebar, .omniedu-module__ZuS8GG__pageHeader, .omniedu-module__ZuS8GG__formCard {
+    border-radius: 1.15rem;
+  }
+}
+
+/*# sourceMappingURL=components_omniedu_module_10r0n~j.css.map*/

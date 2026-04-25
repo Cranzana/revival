@@ -1,0 +1,12 @@
+OmniEdu server listening on http://localhost:3001/
+[2026/04/23 - 08:33:23] info: new connection on /wisp/ from 127.0.0.1
+[2026/04/23 - 08:33:23] info: setting up new wisp connection with id b7edeacc
+[2026/04/23 - 08:33:23] info: (b7edeacc) opening new TCP stream to google.com:443
+[2026/04/23 - 08:33:23] info: (b7edeacc) opening new TCP stream to publicsuffix.org:443
+[2026/04/23 - 08:33:23] info: (b7edeacc) opening new TCP stream to www.google.com:443
+[2026/04/23 - 08:33:23] info: (b7edeacc) opening new TCP stream to www.gstatic.com:443
+[2026/04/23 - 08:33:23] info: (b7edeacc) opening new TCP stream to www.gstatic.com:443
+[2026/04/23 - 08:33:23] info: (b7edeacc) closing stream to www.gstatic.com for reason 2
+[2026/04/23 - 08:33:23] info: (b7edeacc) opening new TCP stream to ogads-pa.clients6.google.com:443
+[2026/04/23 - 08:33:24] info: (b7edeacc) opening new TCP stream to play.google.com:443
+[2026/04/23 - 08:33:31] info: (b7edeacc) wisp connection closed

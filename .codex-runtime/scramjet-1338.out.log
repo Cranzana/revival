@@ -1,0 +1,72 @@
+
+> @mercuryworkshop/scramjet@2.0.0-alpha dev C:\Users\thril\Documents\revival
+> node server.js
+
+Listening on http://localhost:1338/
+[34m[RSDOCTOR DEBUG][39m 1776899809387
+[34m[RSDOCTOR DEBUG][39m [RspackNativePlugin] Apply hooks
+[34m[RSDOCTOR DEBUG][39m [RspackNativePlugin] Enabled
+[34m[RSDOCTOR DEBUG][39m 1776899809442
+[34m[RSDOCTOR DEBUG][39m [RspackNativePlugin] Apply hooks
+[34m[RSDOCTOR DEBUG][39m [RspackNativePlugin] Enabled
+[34m[RSDOCTOR DEBUG][39m isESMLoader function error：Error: C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\build-utils\build\loader\package.json: ENOENT: no such file or directory, open 'C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\build-utils\build\loader\package.json'
+[34m[RSDOCTOR DEBUG][39m isESMLoader function error：Error: C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\build-utils\build\package.json: ENOENT: no such file or directory, open 'C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\build-utils\build\package.json'
+[34m[RSDOCTOR DEBUG][39m isESMLoader function error：Error: C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\build-utils\package.json: ENOENT: no such file or directory, open 'C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\build-utils\package.json'
+[34m[RSDOCTOR DEBUG][39m isESMLoader function error：Error: C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\package.json: ENOENT: no such file or directory, open 'C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\package.json'
+[34m[RSDOCTOR DEBUG][39m isESMLoader function error：Error: C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\build-utils\build\loader\package.json: ENOENT: no such file or directory, open 'C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\build-utils\build\loader\package.json'
+[34m[RSDOCTOR DEBUG][39m isESMLoader function error：Error: C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\build-utils\build\package.json: ENOENT: no such file or directory, open 'C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\build-utils\build\package.json'
+[34m[RSDOCTOR DEBUG][39m isESMLoader function error：Error: C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\build-utils\package.json: ENOENT: no such file or directory, open 'C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\build-utils\package.json'
+[34m[RSDOCTOR DEBUG][39m isESMLoader function error：Error: C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\package.json: ENOENT: no such file or directory, open 'C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\package.json'
+[34m[RSDOCTOR DEBUG][39m isESMLoader function error：Error: C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\build-utils\build\loader\package.json: ENOENT: no such file or directory, open 'C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\build-utils\build\loader\package.json'
+[34m[RSDOCTOR DEBUG][39m isESMLoader function error：Error: C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\build-utils\build\package.json: ENOENT: no such file or directory, open 'C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\build-utils\build\package.json'
+[34m[RSDOCTOR DEBUG][39m isESMLoader function error：Error: C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\build-utils\package.json: ENOENT: no such file or directory, open 'C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\build-utils\package.json'
+[34m[RSDOCTOR DEBUG][39m isESMLoader function error：Error: C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\package.json: ENOENT: no such file or directory, open 'C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\package.json'
+[34m[RSDOCTOR DEBUG][39m isESMLoader function error：Error: C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\build-utils\build\loader\package.json: ENOENT: no such file or directory, open 'C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\build-utils\build\loader\package.json'
+[34m[RSDOCTOR DEBUG][39m isESMLoader function error：Error: C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\build-utils\build\package.json: ENOENT: no such file or directory, open 'C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\build-utils\build\package.json'
+[34m[RSDOCTOR DEBUG][39m isESMLoader function error：Error: C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\build-utils\package.json: ENOENT: no such file or directory, open 'C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\build-utils\package.json'
+[34m[RSDOCTOR DEBUG][39m isESMLoader function error：Error: C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\package.json: ENOENT: no such file or directory, open 'C:\Users\thril\Documents\revival\node_modules\.pnpm\@rsdoctor+core@1.2.3_@rsbui_775f3c8560a9a69924e103d9a1f79d8e\node_modules\@rsdoctor\core\dist\package.json'
+[34m[RSDOCTOR DEBUG][39m Successfully wrote mcp.json for [36mRsdoctorRspackPlugin[39m builder
+[34m[RSDOCTOR DEBUG][39m Successfully wrote mcp.json for [36mRsdoctorRspackPlugin[39m builder
+[34m[RSDOCTOR DEBUG][39m [Before Generate ModuleGraph]
+[34m[RSDOCTOR DEBUG][39m [Before Generate ModuleGraph]
+[34m[RSDOCTOR DEBUG][39m [After Generate ModuleGraph]
+[34m[RSDOCTOR DEBUG][39m ["35876" Memory Usage] RSS: 383.44 MB, Heap Total: 222.3 MB, Heap Used: 95 MB, ArrayBuffers: 4.89 MB, External: 16.7 MB, '[After Transform ModuleGraph]'
+[34m[RSDOCTOR DEBUG][39m data size: 103
+[34m[RSDOCTOR DEBUG][39m sdk._moduleGraph size: 103
+[34m[RSDOCTOR DEBUG][39m sdk._packageGraph packages: 10
+[34m[RSDOCTOR DEBUG][39m sdk._moduleGraph size: 103
+[34m[RSDOCTOR DEBUG][39m sdk._moduleGraph size: 103
+[34m[RSDOCTOR DEBUG][39m sdk._moduleGraph size: 103
+[34m[RSDOCTOR DEBUG][39m 1776899809861
+[34m[RSDOCTOR DEBUG][39m [After Generate ModuleGraph]
+[34m[RSDOCTOR DEBUG][39m ["35876" Memory Usage] RSS: 385.56 MB, Heap Total: 222.56 MB, Heap Used: 99.45 MB, ArrayBuffers: 7.13 MB, External: 18.94 MB, '[After Transform ModuleGraph]'
+[34m[RSDOCTOR DEBUG][39m data size: 105
+[34m[RSDOCTOR DEBUG][39m sdk._moduleGraph size: 105
+[34m[RSDOCTOR DEBUG][39m sdk._packageGraph packages: 10
+[34m[RSDOCTOR DEBUG][39m sdk._moduleGraph size: 105
+[34m[RSDOCTOR DEBUG][39m sdk._moduleGraph size: 105
+[34m[RSDOCTOR DEBUG][39m sdk._moduleGraph size: 105
+[34m[RSDOCTOR DEBUG][39m 1776899809892
+[34m[RSDOCTOR DEBUG][39m 1776899809911 http://10.5.0.2:3383
+[34m[RSDOCTOR DEBUG][39m 1776899809916 http://10.5.0.2:3361
+[36mType-checking in progress...[39m
+[36mType-checking in progress...[39m
+[34m[RSDOCTOR DEBUG][39m 1776899810045 http://10.5.0.2:3361
+[34m[RSDOCTOR DEBUG][39m sdk.writeStore has run.
+[34m[RSDOCTOR DEBUG][39m 1776899810078 http://10.5.0.2:3383
+[34m[RSDOCTOR DEBUG][39m sdk.writeStore has run.
+[34m[RSDOCTOR DEBUG][39m SDKCore.writePieces extraConfig: {"innerClientPath":"","printLog":{"serverUrls":true},"mode":"normal","brief":{"writeDataJson":false},"compressData":true}
+[34m[RSDOCTOR DEBUG][39m SDKCore.writeManifest extraConfig: [object Object]
+[34m[RSDOCTOR DEBUG][39m SDKCore.writePieces extraConfig: {"innerClientPath":"","printLog":{"serverUrls":true},"mode":"normal","brief":{"writeDataJson":false},"compressData":true}
+[34m[RSDOCTOR DEBUG][39m SDKCore.writeManifest extraConfig: [object Object]
+[33m[RSDOCTOR INFO][39m [32mRsdoctorRspackPlugin compiler's[39m analyzer running on: [36mhttp://10.5.0.2:3361/index.html[39m
+[33m[RSDOCTOR INFO][39m [32mRsdoctorRspackPlugin compiler's[39m analyzer running on: [36mhttp://10.5.0.2:3383/index.html[39m
+2 assets
+107 modules
+Rspack compiled [1m[32msuccessfully[39m[22m in 289 ms
+
+1 asset
+109 modules
+Rspack compiled [1m[32msuccessfully[39m[22m in 314 ms
+[32mNo TypeScript errors found.[39m
+[32mNo TypeScript errors found.[39m

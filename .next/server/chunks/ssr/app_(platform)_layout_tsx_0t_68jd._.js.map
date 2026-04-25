@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../app/%28platform%29/layout.tsx"],"sourcesContent":["export default function PlatformLayout({\n\tchildren,\n}: {\n\tchildren: React.ReactNode;\n}) {\n\treturn children;\n}\n"],"names":["PlatformLayout","children"],"mappings":"wDAAe,SAASA,AAAe,UACtCC,CAAQ,CAGR,EACA,OAAOA,CACR"}

@@ -1,0 +1,11 @@
+.git
+.github
+.next
+.codex-runtime
+coverage
+node_modules
+npm-debug.log
+pnpm-debug.log
+Dockerfile*
+docker-compose*
+README.md

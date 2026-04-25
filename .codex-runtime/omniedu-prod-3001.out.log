@@ -1,0 +1,150 @@
+
+> @mercuryworkshop/scramjet@2.0.0-alpha start C:\Users\thril\Documents\revival
+> node scripts/run-server.mjs --production
+
+OmniEdu server listening on http://localhost:3001/
+[2026/04/23 - 21:14:49] info: new connection on /wisp/ from 127.0.0.1
+[2026/04/23 - 21:14:49] info: setting up new wisp connection with id 8f4802c8
+[2026/04/23 - 21:14:49] info: (8f4802c8) opening new TCP stream to www.youtube.com:443
+[2026/04/23 - 21:14:53] info: (8f4802c8) opening new TCP stream to slowroads.io:443
+[2026/04/23 - 21:14:56] info: (8f4802c8) opening new TCP stream to hextris.io:443
+[2026/04/23 - 21:14:56] info: (8f4802c8) opening new TCP stream to fonts.googleapis.com:80
+[2026/04/23 - 21:14:56] info: (8f4802c8) opening new TCP stream to pagead2.googlesyndication.com:443
+[2026/04/23 - 21:14:56] info: (8f4802c8) opening new TCP stream to hextris.io:80
+[2026/04/23 - 21:14:56] info: (8f4802c8) opening new TCP stream to www.google-analytics.com:443
+[2026/04/23 - 21:14:56] info: (8f4802c8) opening new TCP stream to www.googletagmanager.com:443
+[2026/04/23 - 21:15:20] info: (8f4802c8) opening new TCP stream to youtube.com:443
+[2026/04/23 - 21:15:21] info: (8f4802c8) opening new TCP stream to i.ytimg.com:443
+[2026/04/23 - 21:15:21] info: (8f4802c8) opening new TCP stream to fonts.googleapis.com:443
+[2026/04/23 - 21:15:21] info: (8f4802c8) opening new TCP stream to fonts.gstatic.com:443
+[2026/04/23 - 21:15:21] info: (8f4802c8) opening new TCP stream to googleads.g.doubleclick.net:443
+[2026/04/23 - 21:15:21] info: (8f4802c8) opening new TCP stream to rr3---sn-q4fl6nsl.googlevideo.com:443
+[2026/04/23 - 21:15:21] info: (8f4802c8) opening new TCP stream to rr3---sn-q4fl6nsl.googlevideo.com:443
+[2026/04/23 - 21:15:21] info: (8f4802c8) opening new TCP stream to www.google.com:443
+[2026/04/23 - 21:15:21] info: (8f4802c8) closing stream to rr3---sn-q4fl6nsl.googlevideo.com for reason 2
+[2026/04/23 - 21:15:21] info: (8f4802c8) closing stream to rr3---sn-q4fl6nsl.googlevideo.com for reason 2
+[2026/04/23 - 21:15:21] info: (8f4802c8) opening new TCP stream to rr3---sn-q4fl6nsl.googlevideo.com:443
+[2026/04/23 - 21:15:21] info: (8f4802c8) opening new TCP stream to rr3---sn-q4fl6nsl.googlevideo.com:443
+[2026/04/23 - 21:15:22] info: (8f4802c8) opening new TCP stream to rr3---sn-q4fl6nsl.googlevideo.com:443
+[2026/04/23 - 21:15:22] info: (8f4802c8) closing stream to rr3---sn-q4fl6nsl.googlevideo.com for reason 2
+[2026/04/23 - 21:15:22] info: (8f4802c8) closing stream to rr3---sn-q4fl6nsl.googlevideo.com for reason 2
+[2026/04/23 - 21:15:22] info: (8f4802c8) opening new TCP stream to rr3---sn-q4fl6nsl.googlevideo.com:443
+[2026/04/23 - 21:15:22] info: (8f4802c8) closing stream to rr3---sn-q4fl6nsl.googlevideo.com for reason 2
+[2026/04/23 - 21:15:22] info: (8f4802c8) closing stream to rr3---sn-q4fl6nsl.googlevideo.com for reason 2
+[2026/04/23 - 21:15:22] info: (8f4802c8) opening new TCP stream to www.gstatic.com:443
+[2026/04/23 - 21:15:22] info: (8f4802c8) opening new TCP stream to static.doubleclick.net:443
+[2026/04/23 - 21:15:25] info: (8f4802c8) opening new TCP stream to suggestqueries-clients6.youtube.com:443
+[2026/04/23 - 21:15:26] info: (8f4802c8) opening new TCP stream to yt3.googleusercontent.com:443
+[2026/04/23 - 21:15:26] info: (8f4802c8) opening new TCP stream to yt3.googleusercontent.com:443
+[2026/04/23 - 21:15:26] info: (8f4802c8) opening new TCP stream to encrypted-tbn0.gstatic.com:443
+[2026/04/23 - 21:15:26] info: (8f4802c8) opening new TCP stream to yt3.googleusercontent.com:443
+[2026/04/23 - 21:15:26] info: (8f4802c8) opening new TCP stream to encrypted-tbn2.gstatic.com:443
+[2026/04/23 - 21:15:26] info: (8f4802c8) opening new TCP stream to encrypted-tbn2.gstatic.com:443
+[2026/04/23 - 21:15:26] info: (8f4802c8) opening new TCP stream to yt3.googleusercontent.com:443
+[2026/04/23 - 21:15:26] info: (8f4802c8) opening new TCP stream to yt3.googleusercontent.com:443
+[2026/04/23 - 21:15:26] info: (8f4802c8) opening new TCP stream to encrypted-tbn0.gstatic.com:443
+[2026/04/23 - 21:15:26] info: (8f4802c8) opening new TCP stream to encrypted-tbn0.gstatic.com:443
+[2026/04/23 - 21:15:26] info: (8f4802c8) opening new TCP stream to encrypted-tbn3.gstatic.com:443
+[2026/04/23 - 21:15:26] info: (8f4802c8) closing stream to yt3.googleusercontent.com for reason 2
+[2026/04/23 - 21:15:26] info: (8f4802c8) closing stream to yt3.googleusercontent.com for reason 2
+[2026/04/23 - 21:15:26] info: (8f4802c8) closing stream to yt3.googleusercontent.com for reason 2
+[2026/04/23 - 21:15:26] info: (8f4802c8) closing stream to yt3.googleusercontent.com for reason 2
+[2026/04/23 - 21:15:26] info: (8f4802c8) closing stream to encrypted-tbn2.gstatic.com for reason 2
+[2026/04/23 - 21:15:26] info: (8f4802c8) closing stream to encrypted-tbn0.gstatic.com for reason 2
+[2026/04/23 - 21:15:26] info: (8f4802c8) closing stream to encrypted-tbn0.gstatic.com for reason 2
+[2026/04/23 - 21:15:27] info: (8f4802c8) opening new TCP stream to encrypted-tbn1.gstatic.com:443
+[2026/04/23 - 21:15:29] info: (8f4802c8) opening new TCP stream to yt3.ggpht.com:443
+[2026/04/23 - 21:15:30] info: (8f4802c8) opening new TCP stream to rr5---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com:443
+[2026/04/23 - 21:15:30] info: (8f4802c8) opening new TCP stream to rr5---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com:443
+[2026/04/23 - 21:15:30] info: (8f4802c8) closing stream to rr5---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com for reason 2
+[2026/04/23 - 21:15:31] info: (8f4802c8) opening new TCP stream to rr13---sn-bvvbaxivnuxq5uu-vgqz.googlevideo.com:443
+[2026/04/23 - 21:15:32] info: (8f4802c8) closing stream to rr13---sn-bvvbaxivnuxq5uu-vgqz.googlevideo.com for reason 2
+[2026/04/23 - 21:15:32] info: (8f4802c8) opening new TCP stream to rr13---sn-bvvbaxivnuxq5uu-vgqz.googlevideo.com:443
+[2026/04/23 - 21:15:32] info: (8f4802c8) opening new TCP stream to rr13---sn-bvvbaxivnuxq5uu-vgqz.googlevideo.com:443
+[2026/04/23 - 21:16:00] info: (8f4802c8) opening new TCP stream to rr5---sn-bvvbaxivnuxq5uu-vgqz.googlevideo.com:443
+[2026/04/23 - 21:16:48] info: (8f4802c8) opening new TCP stream to store.steampowered.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to shared.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to cdn.fastly.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to shared.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to shared.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to shared.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to shared.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to shared.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to shared.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) opening new TCP stream to shared.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:49] info: (8f4802c8) closing stream to shared.akamai.steamstatic.com for reason 2
+[2026/04/23 - 21:16:49] info: (8f4802c8) closing stream to shared.akamai.steamstatic.com for reason 2
+[2026/04/23 - 21:16:49] info: (8f4802c8) closing stream to shared.akamai.steamstatic.com for reason 2
+[2026/04/23 - 21:16:49] info: (8f4802c8) closing stream to shared.akamai.steamstatic.com for reason 2
+[2026/04/23 - 21:16:49] info: (8f4802c8) closing stream to shared.akamai.steamstatic.com for reason 2
+[2026/04/23 - 21:16:49] info: (8f4802c8) closing stream to shared.akamai.steamstatic.com for reason 2
+[2026/04/23 - 21:16:49] info: (8f4802c8) closing stream to shared.akamai.steamstatic.com for reason 2
+[2026/04/23 - 21:16:50] info: (8f4802c8) opening new TCP stream to store.steampowered.com:443
+[2026/04/23 - 21:16:50] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:50] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:50] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:50] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:50] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:50] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:50] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:50] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:50] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:50] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:50] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:50] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:50] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:50] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:50] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:50] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:50] info: (8f4802c8) opening new TCP stream to store.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:50] info: (8f4802c8) opening new TCP stream to 127.0.0.1:27060
+[2026/04/23 - 21:16:50] info: (8f4802c8) closing stream to 127.0.0.1 for reason 3
+[2026/04/23 - 21:16:50] info: (8f4802c8) opening new TCP stream to api.steampowered.com:443
+[2026/04/23 - 21:16:50] info: (8f4802c8) opening new TCP stream to video.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:50] info: (8f4802c8) opening new TCP stream to clan.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:50] info: (8f4802c8) opening new TCP stream to clan.akamai.steamstatic.com:443
+[2026/04/23 - 21:16:50] info: (8f4802c8) closing stream to clan.akamai.steamstatic.com for reason 2
+[2026/04/23 - 21:17:07] info: (8f4802c8) wisp connection closed
+[2026/04/23 - 21:18:37] info: new connection on /wisp/ from 127.0.0.1
+[2026/04/23 - 21:18:37] info: setting up new wisp connection with id e25b117c
+[2026/04/23 - 21:18:37] info: (e25b117c) opening new TCP stream to hextris.io:443
+[2026/04/23 - 21:18:37] info: (e25b117c) opening new TCP stream to fonts.googleapis.com:80
+[2026/04/23 - 21:18:37] info: (e25b117c) opening new TCP stream to pagead2.googlesyndication.com:443
+[2026/04/23 - 21:18:37] info: (e25b117c) opening new TCP stream to hextris.io:80
+[2026/04/23 - 21:18:37] info: (e25b117c) opening new TCP stream to www.google-analytics.com:443
+[2026/04/23 - 21:18:37] info: (e25b117c) opening new TCP stream to www.googletagmanager.com:443
+[2026/04/23 - 21:20:46] info: (e25b117c) wisp connection closed
+ ELIFECYCLE  Command failed with exit code 3221225786.

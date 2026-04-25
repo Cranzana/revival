@@ -1,0 +1,511 @@
+Scramjet Next server listening on http://localhost:3001/
+[2026/04/23 - 07:13:14] info: new connection on /wisp/ from 127.0.0.1
+[2026/04/23 - 07:13:14] info: setting up new wisp connection with id 152a22a2
+[2026/04/23 - 07:13:14] info: (152a22a2) opening new TCP stream to google.com:443
+[2026/04/23 - 07:13:14] info: (152a22a2) opening new TCP stream to publicsuffix.org:443
+[2026/04/23 - 07:13:14] info: (152a22a2) opening new TCP stream to www.google.com:443
+[2026/04/23 - 07:13:15] info: (152a22a2) opening new TCP stream to www.gstatic.com:443
+[2026/04/23 - 07:13:15] info: (152a22a2) opening new TCP stream to www.gstatic.com:443
+[2026/04/23 - 07:13:15] info: (152a22a2) closing stream to www.gstatic.com for reason 2
+[2026/04/23 - 07:13:15] info: (152a22a2) opening new TCP stream to ogads-pa.clients6.google.com:443
+[2026/04/23 - 07:13:16] info: (152a22a2) opening new TCP stream to play.google.com:443
+[2026/04/23 - 07:13:19] info: (152a22a2) wisp connection closed
+[2026/04/23 - 07:24:21] info: new connection on /wisp/ from 127.0.0.1
+[2026/04/23 - 07:24:22] info: setting up new wisp connection with id 565183c6
+[2026/04/23 - 07:24:22] info: (565183c6) opening new TCP stream to google.com:443
+[2026/04/23 - 07:24:22] info: (565183c6) opening new TCP stream to publicsuffix.org:443
+[2026/04/23 - 07:24:22] info: (565183c6) opening new TCP stream to www.google.com:443
+[2026/04/23 - 07:24:22] info: (565183c6) opening new TCP stream to www.gstatic.com:443
+[2026/04/23 - 07:24:22] info: (565183c6) opening new TCP stream to fonts.gstatic.com:443
+[2026/04/23 - 07:24:22] info: (565183c6) opening new TCP stream to fonts.gstatic.com:443
+[2026/04/23 - 07:24:22] info: (565183c6) opening new TCP stream to fonts.gstatic.com:443
+[2026/04/23 - 07:24:22] info: (565183c6) opening new TCP stream to www.gstatic.com:443
+[2026/04/23 - 07:24:22] info: (565183c6) closing stream to www.gstatic.com for reason 2
+[2026/04/23 - 07:24:22] info: (565183c6) closing stream to fonts.gstatic.com for reason 2
+[2026/04/23 - 07:24:22] info: (565183c6) closing stream to fonts.gstatic.com for reason 2
+[2026/04/23 - 07:24:22] info: (565183c6) opening new TCP stream to ogads-pa.clients6.google.com:443
+[2026/04/23 - 07:24:23] info: (565183c6) opening new TCP stream to play.google.com:443
+[2026/04/23 - 07:24:25] info: (565183c6) opening new TCP stream to lensfrontend-pa.clients6.google.com:443
+[2026/04/23 - 07:24:33] info: (565183c6) opening new TCP stream to youtube.com:443
+[2026/04/23 - 07:24:33] info: (565183c6) opening new TCP stream to www.youtube.com:443
+[2026/04/23 - 07:24:33] info: (565183c6) opening new TCP stream to i.ytimg.com:443
+[2026/04/23 - 07:24:33] info: (565183c6) opening new TCP stream to fonts.googleapis.com:443
+[2026/04/23 - 07:24:33] info: (565183c6) opening new TCP stream to accounts.google.com:443
+[2026/04/23 - 07:24:34] info: (565183c6) opening new TCP stream to googleads.g.doubleclick.net:443
+[2026/04/23 - 07:24:34] info: (565183c6) opening new TCP stream to rr3---sn-t0a7ln7d.googlevideo.com:443
+[2026/04/23 - 07:24:34] info: (565183c6) opening new TCP stream to rr3---sn-t0a7ln7d.googlevideo.com:443
+[2026/04/23 - 07:24:34] info: (565183c6) closing stream to rr3---sn-t0a7ln7d.googlevideo.com for reason 3
+[2026/04/23 - 07:24:34] info: (565183c6) closing stream to rr3---sn-t0a7ln7d.googlevideo.com for reason 3
+[2026/04/23 - 07:24:34] info: (565183c6) opening new TCP stream to rr3---sn-t0a7ln7d.googlevideo.com:443
+[2026/04/23 - 07:24:34] info: (565183c6) closing stream to rr3---sn-t0a7ln7d.googlevideo.com for reason 3
+[2026/04/23 - 07:24:34] info: (565183c6) opening new TCP stream to rr3---sn-t0a7ln7d.googlevideo.com:443
+[2026/04/23 - 07:24:34] info: (565183c6) closing stream to rr3---sn-t0a7ln7d.googlevideo.com for reason 3
+[2026/04/23 - 07:24:34] info: (565183c6) opening new TCP stream to rr3---sn-t0a7ln7d.googlevideo.com:443
+[2026/04/23 - 07:24:34] info: (565183c6) closing stream to rr3---sn-t0a7ln7d.googlevideo.com for reason 3
+[2026/04/23 - 07:24:34] info: (565183c6) opening new TCP stream to rr3---sn-t0a7ln7d.googlevideo.com:443
+[2026/04/23 - 07:24:34] info: (565183c6) closing stream to rr3---sn-t0a7ln7d.googlevideo.com for reason 3
+[2026/04/23 - 07:24:35] info: (565183c6) opening new TCP stream to rr3---sn-q4fl6nz7.googlevideo.com:443
+[2026/04/23 - 07:24:35] info: (565183c6) opening new TCP stream to rr3---sn-q4fl6nz7.googlevideo.com:443
+[2026/04/23 - 07:24:35] info: (565183c6) opening new TCP stream to rr3---sn-q4fl6nz7.googlevideo.com:443
+[2026/04/23 - 07:24:35] info: (565183c6) opening new TCP stream to rr3---sn-q4fl6nz7.googlevideo.com:443
+[2026/04/23 - 07:24:35] info: (565183c6) opening new TCP stream to rr3---sn-q4fl6nz7.googlevideo.com:443
+[2026/04/23 - 07:24:35] info: (565183c6) opening new TCP stream to rr3---sn-q4fl6nz7.googlevideo.com:443
+[2026/04/23 - 07:24:35] info: (565183c6) closing stream to rr3---sn-q4fl6nz7.googlevideo.com for reason 2
+[2026/04/23 - 07:24:35] info: (565183c6) closing stream to rr3---sn-q4fl6nz7.googlevideo.com for reason 2
+[2026/04/23 - 07:24:35] info: (565183c6) closing stream to rr3---sn-q4fl6nz7.googlevideo.com for reason 2
+[2026/04/23 - 07:24:35] info: (565183c6) closing stream to rr3---sn-q4fl6nz7.googlevideo.com for reason 2
+[2026/04/23 - 07:24:35] info: (565183c6) closing stream to rr3---sn-q4fl6nz7.googlevideo.com for reason 2
+[2026/04/23 - 07:24:35] info: (565183c6) closing stream to rr3---sn-q4fl6nz7.googlevideo.com for reason 2
+[2026/04/23 - 07:24:35] info: (565183c6) opening new TCP stream to static.doubleclick.net:443
+[2026/04/23 - 07:25:11] info: (565183c6) opening new TCP stream to suggestqueries-clients6.youtube.com:443
+[2026/04/23 - 07:25:15] info: (565183c6) opening new TCP stream to yt3.googleusercontent.com:443
+[2026/04/23 - 07:25:15] info: (565183c6) opening new TCP stream to yt3.googleusercontent.com:443
+[2026/04/23 - 07:25:15] info: (565183c6) opening new TCP stream to encrypted-tbn0.gstatic.com:443
+[2026/04/23 - 07:25:15] info: (565183c6) opening new TCP stream to yt3.googleusercontent.com:443
+[2026/04/23 - 07:25:15] info: (565183c6) opening new TCP stream to encrypted-tbn2.gstatic.com:443
+[2026/04/23 - 07:25:15] info: (565183c6) opening new TCP stream to encrypted-tbn2.gstatic.com:443
+[2026/04/23 - 07:25:15] info: (565183c6) opening new TCP stream to yt3.googleusercontent.com:443
+[2026/04/23 - 07:25:15] info: (565183c6) opening new TCP stream to yt3.googleusercontent.com:443
+[2026/04/23 - 07:25:15] info: (565183c6) closing stream to yt3.googleusercontent.com for reason 2
+[2026/04/23 - 07:25:15] info: (565183c6) closing stream to yt3.googleusercontent.com for reason 2
+[2026/04/23 - 07:25:15] info: (565183c6) closing stream to encrypted-tbn2.gstatic.com for reason 2
+[2026/04/23 - 07:25:15] info: (565183c6) closing stream to yt3.googleusercontent.com for reason 2
+[2026/04/23 - 07:25:15] info: (565183c6) closing stream to yt3.googleusercontent.com for reason 2
+[2026/04/23 - 07:25:15] info: (565183c6) opening new TCP stream to encrypted-tbn1.gstatic.com:443
+[2026/04/23 - 07:25:15] info: (565183c6) opening new TCP stream to encrypted-tbn1.gstatic.com:443
+[2026/04/23 - 07:25:15] info: (565183c6) closing stream to encrypted-tbn1.gstatic.com for reason 2
+[2026/04/23 - 07:25:15] info: (565183c6) opening new TCP stream to encrypted-tbn3.gstatic.com:443
+[2026/04/23 - 07:25:15] info: (565183c6) opening new TCP stream to encrypted-tbn3.gstatic.com:443
+[2026/04/23 - 07:25:15] info: (565183c6) closing stream to encrypted-tbn3.gstatic.com for reason 2
+[2026/04/23 - 07:25:17] info: (565183c6) opening new TCP stream to yt3.ggpht.com:443
+[2026/04/23 - 07:25:17] info: (565183c6) opening new TCP stream to yt3.ggpht.com:443
+[2026/04/23 - 07:25:17] info: (565183c6) closing stream to yt3.ggpht.com for reason 2
+[2026/04/23 - 07:25:17] info: (565183c6) opening new TCP stream to rr3---sn-bvvbaxivnuxq5uu-vgqz.googlevideo.com:443
+[2026/04/23 - 07:25:18] info: (565183c6) opening new TCP stream to rr8---sn-bvvbaxivnuxq5uu-vgql.googlevideo.com:443
+[2026/04/23 - 07:25:20] info: (565183c6) opening new TCP stream to lh3.googleusercontent.com:443
+[2026/04/23 - 07:25:25] info: (565183c6) opening new TCP stream to ad.doubleclick.net:443
+[2026/04/23 - 07:25:25] info: (565183c6) opening new TCP stream to tpc.googlesyndication.com:443
+[2026/04/23 - 07:25:25] info: (565183c6) opening new TCP stream to rr11---sn-bvvbaxivnuxq5uu-vgqz.googlevideo.com:443
+[2026/04/23 - 07:25:26] info: (565183c6) opening new TCP stream to rr8---sn-bvvbaxivnuxq5uu-vgql.googlevideo.com:443
+[2026/04/23 - 07:25:26] info: (565183c6) closing stream to rr8---sn-bvvbaxivnuxq5uu-vgql.googlevideo.com for reason 2
+[2026/04/23 - 07:25:26] info: (565183c6) opening new TCP stream to rr12---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com:443
+[2026/04/23 - 07:25:26] info: (565183c6) closing stream to rr8---sn-bvvbaxivnuxq5uu-vgql.googlevideo.com for reason 2
+[2026/04/23 - 07:25:26] info: (565183c6) closing stream to rr12---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com for reason 2
+[2026/04/23 - 07:25:27] info: (565183c6) opening new TCP stream to rr9---sn-bvvbaxivnuxq5uu-vgqz.googlevideo.com:443
+[2026/04/23 - 07:25:28] info: (565183c6) opening new TCP stream to rr2---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com:443
+[2026/04/23 - 07:25:28] info: (565183c6) closing stream to rr9---sn-bvvbaxivnuxq5uu-vgqz.googlevideo.com for reason 2
+[2026/04/23 - 07:25:28] info: (565183c6) opening new TCP stream to rr9---sn-bvvbaxivnuxq5uu-vgqz.googlevideo.com:443
+[2026/04/23 - 07:25:28] info: (565183c6) closing stream to rr2---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com for reason 2
+[2026/04/23 - 07:25:28] info: (565183c6) opening new TCP stream to rr1---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com:443
+[2026/04/23 - 07:25:28] info: (565183c6) closing stream to rr1---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com for reason 2
+[2026/04/23 - 07:25:37] info: (565183c6) closing stream to rr11---sn-bvvbaxivnuxq5uu-vgqz.googlevideo.com for reason 2
+[2026/04/23 - 07:25:37] info: (565183c6) opening new TCP stream to rr11---sn-bvvbaxivnuxq5uu-vgqz.googlevideo.com:443
+[2026/04/23 - 07:25:37] info: (565183c6) opening new TCP stream to rr8---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com:443
+[2026/04/23 - 07:25:37] info: (565183c6) closing stream to rr11---sn-bvvbaxivnuxq5uu-vgqz.googlevideo.com for reason 2
+[2026/04/23 - 07:25:37] info: (565183c6) opening new TCP stream to rr8---sn-bvvbaxivnuxq5uu-vgql.googlevideo.com:443
+[2026/04/23 - 07:25:37] info: (565183c6) closing stream to rr8---sn-bvvbaxivnuxq5uu-vgql.googlevideo.com for reason 2
+[2026/04/23 - 07:25:37] info: (565183c6) opening new TCP stream to rr8---sn-bvvbaxivnuxq5uu-vgql.googlevideo.com:443
+[2026/04/23 - 07:25:38] info: (565183c6) closing stream to rr8---sn-bvvbaxivnuxq5uu-vgql.googlevideo.com for reason 2
+[2026/04/23 - 07:25:38] info: (565183c6) opening new TCP stream to rr8---sn-bvvbaxivnuxq5uu-vgql.googlevideo.com:443
+[2026/04/23 - 07:25:38] info: (565183c6) opening new TCP stream to rr11---sn-bvvbaxivnuxq5uu-vgqz.googlevideo.com:443
+[2026/04/23 - 07:25:38] info: (565183c6) closing stream to rr8---sn-bvvbaxivnuxq5uu-vgql.googlevideo.com for reason 2
+[2026/04/23 - 07:25:43] info: (565183c6) opening new TCP stream to rr4---sn-ntq7yner.googlevideo.com:443
+[2026/04/23 - 07:25:43] info: (565183c6) opening new TCP stream to rr4---sn-ntq7yner.googlevideo.com:443
+[2026/04/23 - 07:25:44] info: (565183c6) opening new TCP stream to rr4---sn-ntq7yner.googlevideo.com:443
+[2026/04/23 - 07:25:44] info: (565183c6) opening new TCP stream to rr4---sn-ntq7yner.googlevideo.com:443
+[2026/04/23 - 07:25:44] info: (565183c6) closing stream to rr4---sn-ntq7yner.googlevideo.com for reason 2
+[2026/04/23 - 07:25:44] info: (565183c6) closing stream to rr4---sn-ntq7yner.googlevideo.com for reason 2
+[2026/04/23 - 07:25:45] info: (565183c6) opening new TCP stream to rr4---sn-ntq7yner.googlevideo.com:443
+[2026/04/23 - 07:25:45] info: (565183c6) opening new TCP stream to rr4---sn-ntq7yner.googlevideo.com:443
+[2026/04/23 - 07:25:45] info: (565183c6) opening new TCP stream to rr5---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com:443
+[2026/04/23 - 07:25:45] info: (565183c6) closing stream to rr4---sn-ntq7yner.googlevideo.com for reason 2
+[2026/04/23 - 07:25:45] info: (565183c6) closing stream to rr4---sn-ntq7yner.googlevideo.com for reason 2
+[2026/04/23 - 07:25:45] info: (565183c6) opening new TCP stream to rr5---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com:443
+[2026/04/23 - 07:25:45] info: (565183c6) closing stream to rr5---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com for reason 2
+[2026/04/23 - 07:25:45] info: (565183c6) closing stream to rr4---sn-ntq7yner.googlevideo.com for reason 2
+[2026/04/23 - 07:25:45] info: (565183c6) closing stream to rr4---sn-ntq7yner.googlevideo.com for reason 2
+[2026/04/23 - 07:25:47] info: (565183c6) opening new TCP stream to rr1---sn-bvvbaxivnuxq5uu-vgqe.googlevideo.com:443
+[2026/04/23 - 07:25:47] info: (565183c6) closing stream to rr1---sn-bvvbaxivnuxq5uu-vgqe.googlevideo.com for reason 2
+[2026/04/23 - 07:25:57] info: (565183c6) closing stream to rr11---sn-bvvbaxivnuxq5uu-vgqz.googlevideo.com for reason 2
+[2026/04/23 - 07:25:58] info: (565183c6) opening new TCP stream to rr10---sn-bvvbaxivnuxq5uu-vgqe.googlevideo.com:443
+[2026/04/23 - 07:25:58] info: (565183c6) opening new TCP stream to rr10---sn-bvvbaxivnuxq5uu-vgqe.googlevideo.com:443
+[2026/04/23 - 07:25:58] info: (565183c6) closing stream to rr10---sn-bvvbaxivnuxq5uu-vgqe.googlevideo.com for reason 2
+[2026/04/23 - 07:26:05] info: (565183c6) opening new TCP stream to rr11---sn-bvvbaxivnuxq5uu-vgqz.googlevideo.com:443
+[2026/04/23 - 07:26:05] info: (565183c6) closing stream to rr11---sn-bvvbaxivnuxq5uu-vgqz.googlevideo.com for reason 2
+[2026/04/23 - 07:26:05] info: (565183c6) opening new TCP stream to rr11---sn-bvvbaxivnuxq5uu-vgqz.googlevideo.com:443
+[2026/04/23 - 07:26:05] info: (565183c6) opening new TCP stream to rr1---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com:443
+[2026/04/23 - 07:26:05] info: (565183c6) closing stream to rr11---sn-bvvbaxivnuxq5uu-vgqz.googlevideo.com for reason 2
+[2026/04/23 - 07:26:05] info: (565183c6) closing stream to rr1---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com for reason 2
+[2026/04/23 - 07:26:05] info: (565183c6) opening new TCP stream to rr1---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com:443
+[2026/04/23 - 07:26:06] info: (565183c6) opening new TCP stream to rr8---sn-bvvbaxivnuxq5uu-vgql.googlevideo.com:443
+[2026/04/23 - 07:26:06] info: (565183c6) closing stream to rr8---sn-bvvbaxivnuxq5uu-vgql.googlevideo.com for reason 2
+[2026/04/23 - 07:26:06] info: (565183c6) opening new TCP stream to rr8---sn-bvvbaxivnuxq5uu-vgql.googlevideo.com:443
+[2026/04/23 - 07:26:06] info: (565183c6) closing stream to rr8---sn-bvvbaxivnuxq5uu-vgql.googlevideo.com for reason 2
+[2026/04/23 - 07:26:07] info: (565183c6) closing stream to rr8---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com for reason 2
+[2026/04/23 - 07:26:07] info: (565183c6) opening new TCP stream to rr8---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com:443
+[2026/04/23 - 07:26:07] info: (565183c6) closing stream to rr8---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com for reason 2
+[2026/04/23 - 07:26:07] info: (565183c6) closing stream to rr10---sn-bvvbaxivnuxq5uu-vgqe.googlevideo.com for reason 2
+[2026/04/23 - 07:26:07] info: (565183c6) opening new TCP stream to rr10---sn-bvvbaxivnuxq5uu-vgqe.googlevideo.com:443
+[2026/04/23 - 07:26:14] info: (565183c6) opening new TCP stream to rr8---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com:443
+[2026/04/23 - 07:26:14] info: (565183c6) opening new TCP stream to rr8---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com:443
+[2026/04/23 - 07:26:14] info: (565183c6) closing stream to rr8---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com for reason 2
+[2026/04/23 - 07:27:18] info: (565183c6) closing stream to rr3---sn-bvvbaxivnuxq5uu-vgqz.googlevideo.com for reason 2
+[2026/04/23 - 07:27:22] info: (565183c6) closing stream to rr5---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com for reason 2
+[2026/04/23 - 07:27:22] info: (565183c6) closing stream to rr9---sn-bvvbaxivnuxq5uu-vgqz.googlevideo.com for reason 2
+[2026/04/23 - 07:27:22] info: (565183c6) closing stream to static.doubleclick.net for reason 2
+[2026/04/23 - 07:27:22] info: (565183c6) closing stream to i.ytimg.com for reason 2
+[2026/04/23 - 07:27:22] info: (565183c6) closing stream to tpc.googlesyndication.com for reason 2
+[2026/04/23 - 07:27:22] info: (565183c6) closing stream to ogads-pa.clients6.google.com for reason 2
+[2026/04/23 - 07:27:22] info: (565183c6) closing stream to encrypted-tbn2.gstatic.com for reason 2
+[2026/04/23 - 07:27:22] info: (565183c6) closing stream to yt3.ggpht.com for reason 2
+[2026/04/23 - 07:27:22] info: (565183c6) closing stream to ad.doubleclick.net for reason 2
+[2026/04/23 - 07:27:22] info: (565183c6) closing stream to yt3.googleusercontent.com for reason 2
+[2026/04/23 - 07:27:22] info: (565183c6) closing stream to fonts.googleapis.com for reason 2
+[2026/04/23 - 07:27:22] info: (565183c6) closing stream to encrypted-tbn1.gstatic.com for reason 2
+[2026/04/23 - 07:27:22] info: (565183c6) closing stream to fonts.gstatic.com for reason 2
+[2026/04/23 - 07:27:22] info: (565183c6) closing stream to suggestqueries-clients6.youtube.com for reason 2
+[2026/04/23 - 07:27:22] info: (565183c6) closing stream to youtube.com for reason 2
+[2026/04/23 - 07:27:22] info: (565183c6) closing stream to play.google.com for reason 2
+[2026/04/23 - 07:27:22] info: (565183c6) closing stream to www.google.com for reason 2
+[2026/04/23 - 07:27:22] info: (565183c6) closing stream to lh3.googleusercontent.com for reason 2
+[2026/04/23 - 07:27:22] info: (565183c6) closing stream to www.gstatic.com for reason 2
+[2026/04/23 - 07:27:22] info: (565183c6) closing stream to lensfrontend-pa.clients6.google.com for reason 2
+[2026/04/23 - 07:27:22] info: (565183c6) closing stream to encrypted-tbn0.gstatic.com for reason 2
+[2026/04/23 - 07:27:22] info: (565183c6) closing stream to encrypted-tbn3.gstatic.com for reason 2
+[2026/04/23 - 07:27:22] info: (565183c6) closing stream to publicsuffix.org for reason 2
+[2026/04/23 - 07:27:37] info: (565183c6) opening new TCP stream to rr8---sn-bvvbaxivnuxq5uu-vgql.googlevideo.com:443
+[2026/04/23 - 07:27:37] info: (565183c6) opening new TCP stream to rr8---sn-bvvbaxivnuxq5uu-vgql.googlevideo.com:443
+[2026/04/23 - 07:27:37] info: (565183c6) closing stream to rr8---sn-bvvbaxivnuxq5uu-vgql.googlevideo.com for reason 2
+[2026/04/23 - 07:27:37] info: (565183c6) opening new TCP stream to i.ytimg.com:443
+[2026/04/23 - 07:27:37] info: (565183c6) closing stream to rr8---sn-bvvbaxivnuxq5uu-vgql.googlevideo.com for reason 2
+[2026/04/23 - 07:27:37] info: (565183c6) closing stream to rr8---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com for reason 2
+[2026/04/23 - 07:27:37] info: (565183c6) opening new TCP stream to rr8---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com:443
+[2026/04/23 - 07:27:38] info: (565183c6) closing stream to rr8---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com for reason 2
+[2026/04/23 - 07:27:38] info: (565183c6) opening new TCP stream to rr8---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com:443
+[2026/04/23 - 07:27:39] info: (565183c6) opening new TCP stream to rr8---sn-bvvbaxivnuxq5uu-vgql.googlevideo.com:443
+[2026/04/23 - 07:27:39] info: (565183c6) closing stream to rr8---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com for reason 2
+[2026/04/23 - 07:27:39] info: (565183c6) opening new TCP stream to rr8---sn-bvvbaxivnuxq5uu-vgql.googlevideo.com:443
+[2026/04/23 - 07:27:39] info: (565183c6) closing stream to rr8---sn-bvvbaxivnuxq5uu-vgql.googlevideo.com for reason 2
+[2026/04/23 - 07:27:43] info: (565183c6) opening new TCP stream to r1---sn-bvvbaxivnuxq5uu-q4fk.googlevideo.com:443
+[2026/04/23 - 07:27:43] info: (565183c6) closing stream to r1---sn-bvvbaxivnuxq5uu-q4fk.googlevideo.com for reason 2
+[2026/04/23 - 07:28:05] info: (565183c6) closing stream to rr1---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com for reason 2
+[2026/04/23 - 07:28:07] info: (565183c6) closing stream to rr10---sn-bvvbaxivnuxq5uu-vgqe.googlevideo.com for reason 2
+[2026/04/23 - 07:28:13] info: (565183c6) opening new TCP stream to rr8---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com:443
+[2026/04/23 - 07:28:13] info: (565183c6) opening new TCP stream to rr11---sn-bvvbaxivnuxq5uu-vgqz.googlevideo.com:443
+[2026/04/23 - 07:28:13] info: (565183c6) opening new TCP stream to tpc.googlesyndication.com:443
+[2026/04/23 - 07:28:17] info: (565183c6) opening new TCP stream to encrypted-tbn3.gstatic.com:443
+[2026/04/23 - 07:28:20] info: (565183c6) opening new TCP stream to accounts.google.com:443
+[2026/04/23 - 07:28:21] info: (565183c6) opening new TCP stream to www.google.com:443
+[2026/04/23 - 07:28:21] info: (565183c6) opening new TCP stream to www.google.com:443
+[2026/04/23 - 07:28:21] info: (565183c6) closing stream to www.google.com for reason 2
+[2026/04/23 - 07:28:22] info: (565183c6) closing stream to google.com for reason 2
+[2026/04/23 - 07:28:25] info: (565183c6) opening new TCP stream to fonts.googleapis.com:443
+[2026/04/23 - 07:28:25] info: (565183c6) opening new TCP stream to fonts.gstatic.com:443
+[2026/04/23 - 07:28:25] info: (565183c6) opening new TCP stream to googleads.g.doubleclick.net:443
+[2026/04/23 - 07:28:25] info: (565183c6) opening new TCP stream to rr5---sn-hgn7rn7y.googlevideo.com:443
+[2026/04/23 - 07:28:25] info: (565183c6) opening new TCP stream to rr5---sn-hgn7rn7y.googlevideo.com:443
+[2026/04/23 - 07:28:26] info: (565183c6) opening new TCP stream to yt3.ggpht.com:443
+[2026/04/23 - 07:28:26] info: (565183c6) opening new TCP stream to www.gstatic.com:443
+[2026/04/23 - 07:28:26] info: (565183c6) closing stream to rr5---sn-hgn7rn7y.googlevideo.com for reason 2
+[2026/04/23 - 07:28:26] info: (565183c6) closing stream to rr5---sn-hgn7rn7y.googlevideo.com for reason 2
+[2026/04/23 - 07:28:26] info: (565183c6) opening new TCP stream to rr5---sn-hgn7rn7y.googlevideo.com:443
+[2026/04/23 - 07:28:26] info: (565183c6) opening new TCP stream to rr5---sn-hgn7rn7y.googlevideo.com:443
+[2026/04/23 - 07:28:26] info: (565183c6) opening new TCP stream to rr5---sn-hgn7rn7y.googlevideo.com:443
+[2026/04/23 - 07:28:26] info: (565183c6) opening new TCP stream to rr5---sn-hgn7rn7y.googlevideo.com:443
+[2026/04/23 - 07:28:26] info: (565183c6) opening new TCP stream to static.doubleclick.net:443
+[2026/04/23 - 07:28:26] info: (565183c6) closing stream to rr5---sn-hgn7rn7y.googlevideo.com for reason 2
+[2026/04/23 - 07:28:26] info: (565183c6) closing stream to rr5---sn-hgn7rn7y.googlevideo.com for reason 2
+[2026/04/23 - 07:28:27] info: (565183c6) closing stream to rr5---sn-hgn7rn7y.googlevideo.com for reason 2
+[2026/04/23 - 07:28:27] info: (565183c6) closing stream to rr5---sn-hgn7rn7y.googlevideo.com for reason 2
+[2026/04/23 - 07:28:27] info: (565183c6) opening new TCP stream to rr11---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com:443
+[2026/04/23 - 07:28:27] info: (565183c6) opening new TCP stream to rr11---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com:443
+[2026/04/23 - 07:28:27] info: (565183c6) closing stream to rr11---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com for reason 2
+[2026/04/23 - 07:28:34] info: (565183c6) opening new TCP stream to github.com:443
+[2026/04/23 - 07:28:34] info: (565183c6) closing stream to accounts.google.com for reason 2
+[2026/04/23 - 07:28:34] info: (565183c6) opening new TCP stream to github.githubassets.com:443
+[2026/04/23 - 07:28:34] info: (565183c6) opening new TCP stream to github.githubassets.com:443
+[2026/04/23 - 07:28:34] info: (565183c6) opening new TCP stream to github.githubassets.com:443
+[2026/04/23 - 07:28:34] info: (565183c6) opening new TCP stream to github.githubassets.com:443
+[2026/04/23 - 07:28:34] info: (565183c6) opening new TCP stream to github.githubassets.com:443
+[2026/04/23 - 07:28:34] info: (565183c6) opening new TCP stream to github.githubassets.com:443
+[2026/04/23 - 07:28:34] info: (565183c6) opening new TCP stream to github.githubassets.com:443
+[2026/04/23 - 07:28:34] info: (565183c6) opening new TCP stream to github.githubassets.com:443
+[2026/04/23 - 07:28:34] info: (565183c6) opening new TCP stream to github.githubassets.com:443
+[2026/04/23 - 07:28:34] info: (565183c6) opening new TCP stream to github.githubassets.com:443
+[2026/04/23 - 07:28:34] info: (565183c6) opening new TCP stream to github.githubassets.com:443
+[2026/04/23 - 07:28:34] info: (565183c6) opening new TCP stream to github.githubassets.com:443
+[2026/04/23 - 07:28:34] info: (565183c6) opening new TCP stream to github.githubassets.com:443
+[2026/04/23 - 07:28:34] info: (565183c6) opening new TCP stream to github.githubassets.com:443
+[2026/04/23 - 07:28:34] info: (565183c6) opening new TCP stream to github.githubassets.com:443
+[2026/04/23 - 07:28:34] info: (565183c6) opening new TCP stream to github.githubassets.com:443
+[2026/04/23 - 07:28:34] info: (565183c6) opening new TCP stream to github.githubassets.com:443
+[2026/04/23 - 07:28:34] info: (565183c6) opening new TCP stream to github.githubassets.com:443
+[2026/04/23 - 07:28:34] info: (565183c6) opening new TCP stream to github.githubassets.com:443
+[2026/04/23 - 07:28:34] info: (565183c6) closing stream to github.githubassets.com for reason 2
+[2026/04/23 - 07:28:34] info: (565183c6) closing stream to github.githubassets.com for reason 2
+[2026/04/23 - 07:28:34] info: (565183c6) closing stream to github.githubassets.com for reason 2
+[2026/04/23 - 07:28:34] info: (565183c6) closing stream to github.githubassets.com for reason 2
+[2026/04/23 - 07:28:34] info: (565183c6) closing stream to github.githubassets.com for reason 2
+[2026/04/23 - 07:28:34] info: (565183c6) closing stream to github.githubassets.com for reason 2
+[2026/04/23 - 07:28:34] info: (565183c6) closing stream to github.githubassets.com for reason 2
+[2026/04/23 - 07:28:34] info: (565183c6) closing stream to github.githubassets.com for reason 2
+[2026/04/23 - 07:28:34] info: (565183c6) closing stream to github.githubassets.com for reason 2
+[2026/04/23 - 07:28:34] info: (565183c6) closing stream to github.githubassets.com for reason 2
+[2026/04/23 - 07:28:34] info: (565183c6) closing stream to github.githubassets.com for reason 2
+[2026/04/23 - 07:28:34] info: (565183c6) closing stream to github.githubassets.com for reason 2
+[2026/04/23 - 07:28:34] info: (565183c6) closing stream to github.githubassets.com for reason 2
+[2026/04/23 - 07:28:34] info: (565183c6) closing stream to github.githubassets.com for reason 2
+[2026/04/23 - 07:28:34] info: (565183c6) closing stream to github.githubassets.com for reason 2
+[2026/04/23 - 07:28:34] info: (565183c6) closing stream to github.githubassets.com for reason 2
+[2026/04/23 - 07:28:34] info: (565183c6) closing stream to github.githubassets.com for reason 2
+[2026/04/23 - 07:28:34] info: (565183c6) closing stream to github.githubassets.com for reason 2
+[2026/04/23 - 07:28:35] info: (565183c6) opening new TCP stream to collector.github.com:443
+[2026/04/23 - 07:28:35] info: (565183c6) opening new TCP stream to api.github.com:443
+[2026/04/23 - 07:28:36] info: (565183c6) opening new TCP stream to images.ctfassets.net:443
+[2026/04/23 - 07:28:37] info: (565183c6) opening new TCP stream to developer.mozilla.org:443
+[2026/04/23 - 07:28:37] info: (565183c6) opening new TCP stream to transcend-cdn.com:443
+[2026/04/23 - 07:28:37] info: (565183c6) opening new TCP stream to incoming.telemetry.mozilla.org:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to pornhub.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to www.pornhub.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to ei.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to ei.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to static.trafficjunky.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to ei.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to ei.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to static.trafficjunky.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to ei.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to ei.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to ei.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to ei.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to ei.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to ei.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to ei.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to ei.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to ei.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to ei.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) closing stream to ei.phncdn.com for reason 2
+[2026/04/23 - 07:28:46] info: (565183c6) closing stream to ei.phncdn.com for reason 2
+[2026/04/23 - 07:28:46] info: (565183c6) closing stream to ei.phncdn.com for reason 2
+[2026/04/23 - 07:28:46] info: (565183c6) closing stream to ei.phncdn.com for reason 2
+[2026/04/23 - 07:28:46] info: (565183c6) closing stream to ei.phncdn.com for reason 2
+[2026/04/23 - 07:28:46] info: (565183c6) closing stream to ei.phncdn.com for reason 2
+[2026/04/23 - 07:28:46] info: (565183c6) closing stream to ei.phncdn.com for reason 2
+[2026/04/23 - 07:28:46] info: (565183c6) closing stream to ei.phncdn.com for reason 2
+[2026/04/23 - 07:28:46] info: (565183c6) closing stream to ei.phncdn.com for reason 2
+[2026/04/23 - 07:28:46] info: (565183c6) closing stream to ei.phncdn.com for reason 2
+[2026/04/23 - 07:28:46] info: (565183c6) closing stream to ei.phncdn.com for reason 2
+[2026/04/23 - 07:28:46] info: (565183c6) closing stream to static.trafficjunky.com for reason 2
+[2026/04/23 - 07:28:46] info: (565183c6) closing stream to ei.phncdn.com for reason 2
+[2026/04/23 - 07:28:46] info: (565183c6) closing stream to ei.phncdn.com for reason 2
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to media.trafficjunky.net:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to es.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to es.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to es.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to es.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to es.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to es.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to es.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to es.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to es.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to es.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to es.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to es.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to es.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to es.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to es.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to es.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to es.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to es.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to es.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to es.phncdn.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) opening new TCP stream to www.googletagmanager.com:443
+[2026/04/23 - 07:28:46] info: (565183c6) closing stream to es.phncdn.com for reason 2
+[2026/04/23 - 07:28:46] info: (565183c6) closing stream to es.phncdn.com for reason 2
+[2026/04/23 - 07:28:46] info: (565183c6) closing stream to es.phncdn.com for reason 2
+[2026/04/23 - 07:28:46] info: (565183c6) closing stream to es.phncdn.com for reason 2
+[2026/04/23 - 07:28:46] info: (565183c6) closing stream to es.phncdn.com for reason 2
+[2026/04/23 - 07:28:46] info: (565183c6) closing stream to es.phncdn.com for reason 2
+[2026/04/23 - 07:28:46] info: (565183c6) closing stream to es.phncdn.com for reason 2
+[2026/04/23 - 07:28:46] info: (565183c6) closing stream to es.phncdn.com for reason 2
+[2026/04/23 - 07:28:46] info: (565183c6) closing stream to es.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to es.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to es.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to es.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to es.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to es.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to es.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to es.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to es.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to es.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to es.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to pix-fl.phncdn.com:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to pix-fl.phncdn.com:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to pix-fl.phncdn.com:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to pix-cdn77.phncdn.com:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to pix-fl.phncdn.com:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to pix-fl.phncdn.com:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to pix-cdn77.phncdn.com:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to pix-fl.phncdn.com:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to pix-fl.phncdn.com:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to pix-fl.phncdn.com:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to pix-fl.phncdn.com:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to pix-cdn77.phncdn.com:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to pix-fl.phncdn.com:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to pix-fl.phncdn.com:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to pix-fl.phncdn.com:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to pix-cdn77.phncdn.com:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to pix-fl.phncdn.com:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to pix-fl.phncdn.com:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to cdn1-smallimg.phncdn.com:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to ss.phncdn.com:443
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to pix-fl.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to pix-fl.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to pix-fl.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to pix-fl.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to pix-fl.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to pix-fl.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to pix-fl.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to pix-fl.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to pix-fl.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to pix-fl.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to pix-fl.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to pix-cdn77.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to pix-fl.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to pix-cdn77.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to pix-fl.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to pix-cdn77.phncdn.com for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to sync.atsptp.com:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to pix-cdn77.trafficjunky.net:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to pix-cdn77.trafficjunky.net:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to pix-cdn77.trafficjunky.net:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to analytics.google.com:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to stats.g.doubleclick.net:443
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to pix-cdn77.trafficjunky.net for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to pix-cdn77.trafficjunky.net for reason 2
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to a.adtng.com:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to ht-cdn2.adtng.com:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to ht-cdn2.adtng.com:443
+[2026/04/23 - 07:28:47] info: (565183c6) opening new TCP stream to hw-cdn2.adtng.com:443
+[2026/04/23 - 07:28:47] info: (565183c6) closing stream to ht-cdn2.adtng.com for reason 2
+[2026/04/23 - 07:28:48] info: (565183c6) opening new TCP stream to kw.phncdn.com:443
+[2026/04/23 - 07:29:01] info: (565183c6) closing stream to media.trafficjunky.net for reason 2
+[2026/04/23 - 07:29:02] info: (565183c6) closing stream to es.phncdn.com for reason 2
+[2026/04/23 - 07:29:02] info: (565183c6) closing stream to static.trafficjunky.com for reason 2
+[2026/04/23 - 07:29:02] info: (565183c6) closing stream to ss.phncdn.com for reason 2
+[2026/04/23 - 07:29:02] info: (565183c6) closing stream to ht-cdn2.adtng.com for reason 2
+[2026/04/23 - 07:29:02] info: (565183c6) closing stream to ei.phncdn.com for reason 2
+[2026/04/23 - 07:29:04] info: (565183c6) closing stream to github.com for reason 2
+[2026/04/23 - 07:29:07] info: (565183c6) closing stream to api.github.com for reason 2
+[2026/04/23 - 07:29:39] info: (565183c6) closing stream to rr8---sn-bvvbaxivnuxq5uu-vgql.googlevideo.com for reason 2
+[2026/04/23 - 07:29:46] info: (565183c6) closing stream to pornhub.com for reason 2
+[2026/04/23 - 07:29:47] info: (565183c6) closing stream to cdn1-smallimg.phncdn.com for reason 2
+[2026/04/23 - 07:29:47] info: (565183c6) closing stream to a.adtng.com for reason 2
+[2026/04/23 - 07:29:48] info: (565183c6) closing stream to sync.atsptp.com for reason 2
+[2026/04/23 - 07:29:48] info: (565183c6) closing stream to www.pornhub.com for reason 2
+[2026/04/23 - 07:30:13] info: (565183c6) closing stream to rr8---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com for reason 2
+[2026/04/23 - 07:30:13] info: (565183c6) closing stream to rr11---sn-bvvbaxivnuxq5uu-vgqz.googlevideo.com for reason 2
+[2026/04/23 - 07:30:22] info: (565183c6) closing stream to hw-cdn2.adtng.com for reason 2
+[2026/04/23 - 07:30:22] info: (565183c6) closing stream to rr11---sn-bvvbaxivnuxq5uu-vgqs.googlevideo.com for reason 2
+[2026/04/23 - 07:30:22] info: (565183c6) closing stream to pix-fl.phncdn.com for reason 2
+[2026/04/23 - 07:30:22] info: (565183c6) closing stream to github.githubassets.com for reason 2
+[2026/04/23 - 07:30:22] info: (565183c6) closing stream to tpc.googlesyndication.com for reason 2
+[2026/04/23 - 07:30:22] info: (565183c6) closing stream to i.ytimg.com for reason 2
+[2026/04/23 - 07:30:22] info: (565183c6) closing stream to pix-cdn77.phncdn.com for reason 2
+[2026/04/23 - 07:30:22] info: (565183c6) closing stream to fonts.googleapis.com for reason 2
+[2026/04/23 - 07:30:22] info: (565183c6) closing stream to googleads.g.doubleclick.net for reason 2
+[2026/04/23 - 07:30:22] info: (565183c6) closing stream to fonts.gstatic.com for reason 2
+[2026/04/23 - 07:30:22] info: (565183c6) closing stream to images.ctfassets.net for reason 2
+[2026/04/23 - 07:30:22] info: (565183c6) closing stream to pix-cdn77.trafficjunky.net for reason 2
+[2026/04/23 - 07:30:22] info: (565183c6) closing stream to static.doubleclick.net for reason 2
+[2026/04/23 - 07:30:22] info: (565183c6) closing stream to www.google.com for reason 2
+[2026/04/23 - 07:30:22] info: (565183c6) closing stream to www.googletagmanager.com for reason 2
+[2026/04/23 - 07:30:22] info: (565183c6) closing stream to encrypted-tbn3.gstatic.com for reason 2
+[2026/04/23 - 07:30:22] info: (565183c6) closing stream to yt3.ggpht.com for reason 2
+[2026/04/23 - 07:30:22] info: (565183c6) closing stream to www.gstatic.com for reason 2
+[2026/04/23 - 07:30:22] info: (565183c6) closing stream to stats.g.doubleclick.net for reason 2
+[2026/04/23 - 07:30:22] info: (565183c6) closing stream to collector.github.com for reason 2
+[2026/04/23 - 07:30:35] info: (565183c6) closing stream to googleads.g.doubleclick.net for reason 2
+[2026/04/23 - 07:30:45] info: (565183c6) opening new TCP stream to www.google.com:443
+[2026/04/23 - 07:30:46] info: (565183c6) opening new TCP stream to www.gstatic.com:443
+[2026/04/23 - 07:30:47] info: (565183c6) opening new TCP stream to fonts.gstatic.com:443
+[2026/04/23 - 07:30:56] info: (565183c6) opening new TCP stream to www.googleadservices.com:443
+[2026/04/23 - 07:30:56] info: (565183c6) opening new TCP stream to ogads-pa.clients6.google.com:443
+[2026/04/23 - 07:30:56] info: (565183c6) opening new TCP stream to encrypted-tbn0.gstatic.com:443
+[2026/04/23 - 07:30:56] info: (565183c6) opening new TCP stream to encrypted-tbn0.gstatic.com:443
+[2026/04/23 - 07:30:56] info: (565183c6) opening new TCP stream to encrypted-tbn0.gstatic.com:443
+[2026/04/23 - 07:30:56] info: (565183c6) opening new TCP stream to encrypted-tbn0.gstatic.com:443
+[2026/04/23 - 07:30:56] info: (565183c6) opening new TCP stream to encrypted-tbn0.gstatic.com:443
+[2026/04/23 - 07:30:56] info: (565183c6) closing stream to encrypted-tbn0.gstatic.com for reason 2
+[2026/04/23 - 07:30:56] info: (565183c6) closing stream to encrypted-tbn0.gstatic.com for reason 2
+[2026/04/23 - 07:30:56] info: (565183c6) closing stream to encrypted-tbn0.gstatic.com for reason 2
+[2026/04/23 - 07:30:56] info: (565183c6) closing stream to encrypted-tbn0.gstatic.com for reason 2
+[2026/04/23 - 07:30:56] info: (565183c6) opening new TCP stream to ssl.gstatic.com:443
+[2026/04/23 - 07:30:56] info: (565183c6) opening new TCP stream to ssl.gstatic.com:443
+[2026/04/23 - 07:30:56] info: (565183c6) opening new TCP stream to ssl.gstatic.com:443
+[2026/04/23 - 07:30:56] info: (565183c6) opening new TCP stream to ssl.gstatic.com:443
+[2026/04/23 - 07:30:56] info: (565183c6) closing stream to ssl.gstatic.com for reason 2
+[2026/04/23 - 07:30:56] info: (565183c6) closing stream to ssl.gstatic.com for reason 2
+[2026/04/23 - 07:30:56] info: (565183c6) closing stream to ssl.gstatic.com for reason 2
+[2026/04/23 - 07:30:56] info: (565183c6) opening new TCP stream to www.youtube.com:443
+[2026/04/23 - 07:30:57] info: (565183c6) opening new TCP stream to googleads.g.doubleclick.net:443
+[2026/04/23 - 07:30:57] info: (565183c6) opening new TCP stream to static.doubleclick.net:443
+[2026/04/23 - 07:30:57] info: (565183c6) opening new TCP stream to play.google.com:443
+[2026/04/23 - 07:30:57] info: (565183c6) opening new TCP stream to jnn-pa.googleapis.com:443
+[2026/04/23 - 07:31:00] info: (565183c6) opening new TCP stream to www.newgrounds.com:443
+[2026/04/23 - 07:31:00] info: (565183c6) opening new TCP stream to cdnjs.cloudflare.com:443
+[2026/04/23 - 07:31:00] info: (565183c6) opening new TCP stream to css.ngfiles.com:443
+[2026/04/23 - 07:31:00] info: (565183c6) opening new TCP stream to css.ngfiles.com:443
+[2026/04/23 - 07:31:00] info: (565183c6) opening new TCP stream to cdnjs.cloudflare.com:443
+[2026/04/23 - 07:31:00] info: (565183c6) opening new TCP stream to js.ngfiles.com:443
+[2026/04/23 - 07:31:00] info: (565183c6) opening new TCP stream to js.ngfiles.com:443
+[2026/04/23 - 07:31:00] info: (565183c6) opening new TCP stream to js.ngfiles.com:443
+[2026/04/23 - 07:31:00] info: (565183c6) opening new TCP stream to js.ngfiles.com:443
+[2026/04/23 - 07:31:00] info: (565183c6) opening new TCP stream to js.ngfiles.com:443
+[2026/04/23 - 07:31:00] info: (565183c6) opening new TCP stream to js.ngfiles.com:443
+[2026/04/23 - 07:31:00] info: (565183c6) opening new TCP stream to js.ngfiles.com:443
+[2026/04/23 - 07:31:00] info: (565183c6) opening new TCP stream to js.ngfiles.com:443
+[2026/04/23 - 07:31:00] info: (565183c6) opening new TCP stream to js.ngfiles.com:443
+[2026/04/23 - 07:31:00] info: (565183c6) opening new TCP stream to js.ngfiles.com:443
+[2026/04/23 - 07:31:00] info: (565183c6) opening new TCP stream to js.ngfiles.com:443
+[2026/04/23 - 07:31:00] info: (565183c6) opening new TCP stream to js.ngfiles.com:443
+[2026/04/23 - 07:31:00] info: (565183c6) opening new TCP stream to js.ngfiles.com:443
+[2026/04/23 - 07:31:00] info: (565183c6) opening new TCP stream to img.ngfiles.com:443
+[2026/04/23 - 07:31:00] info: (565183c6) opening new TCP stream to js.ngfiles.com:443
+[2026/04/23 - 07:31:01] info: (565183c6) closing stream to cdnjs.cloudflare.com for reason 2
+[2026/04/23 - 07:31:01] info: (565183c6) closing stream to css.ngfiles.com for reason 2
+[2026/04/23 - 07:31:01] info: (565183c6) closing stream to js.ngfiles.com for reason 2
+[2026/04/23 - 07:31:01] info: (565183c6) closing stream to js.ngfiles.com for reason 2
+[2026/04/23 - 07:31:01] info: (565183c6) closing stream to js.ngfiles.com for reason 2
+[2026/04/23 - 07:31:01] info: (565183c6) closing stream to js.ngfiles.com for reason 2
+[2026/04/23 - 07:31:01] info: (565183c6) closing stream to js.ngfiles.com for reason 2
+[2026/04/23 - 07:31:01] info: (565183c6) closing stream to js.ngfiles.com for reason 2
+[2026/04/23 - 07:31:01] info: (565183c6) closing stream to js.ngfiles.com for reason 2
+[2026/04/23 - 07:31:01] info: (565183c6) closing stream to js.ngfiles.com for reason 2
+[2026/04/23 - 07:31:01] info: (565183c6) closing stream to js.ngfiles.com for reason 2
+[2026/04/23 - 07:31:01] info: (565183c6) closing stream to js.ngfiles.com for reason 2
+[2026/04/23 - 07:31:01] info: (565183c6) closing stream to js.ngfiles.com for reason 2
+[2026/04/23 - 07:31:01] info: (565183c6) closing stream to js.ngfiles.com for reason 2
+[2026/04/23 - 07:31:01] info: (565183c6) closing stream to js.ngfiles.com for reason 2
+[2026/04/23 - 07:31:01] info: (565183c6) opening new TCP stream to uimg.ngfiles.com:443
+[2026/04/23 - 07:31:01] info: (565183c6) opening new TCP stream to uimg.ngfiles.com:443
+[2026/04/23 - 07:31:01] info: (565183c6) opening new TCP stream to uimg.ngfiles.com:443
+[2026/04/23 - 07:31:01] info: (565183c6) opening new TCP stream to uimg.ngfiles.com:443
+[2026/04/23 - 07:31:01] info: (565183c6) opening new TCP stream to uimg.ngfiles.com:443
+[2026/04/23 - 07:31:01] info: (565183c6) opening new TCP stream to uimg.ngfiles.com:443
+[2026/04/23 - 07:31:01] info: (565183c6) opening new TCP stream to uimg.ngfiles.com:443
+[2026/04/23 - 07:31:01] info: (565183c6) closing stream to uimg.ngfiles.com for reason 2
+[2026/04/23 - 07:31:01] info: (565183c6) closing stream to uimg.ngfiles.com for reason 2
+[2026/04/23 - 07:31:01] info: (565183c6) closing stream to uimg.ngfiles.com for reason 2
+[2026/04/23 - 07:31:01] info: (565183c6) closing stream to uimg.ngfiles.com for reason 2
+[2026/04/23 - 07:31:01] info: (565183c6) closing stream to uimg.ngfiles.com for reason 2
+[2026/04/23 - 07:31:01] info: (565183c6) closing stream to uimg.ngfiles.com for reason 2
+[2026/04/23 - 07:31:01] info: (565183c6) opening new TCP stream to uploads.ungrounded.net:443
+[2026/04/23 - 07:31:01] info: (565183c6) opening new TCP stream to picon.ngfiles.com:443
+[2026/04/23 - 07:31:05] info: (565183c6) closing stream to www.newgrounds.com for reason 2
+[2026/04/23 - 07:31:06] info: (565183c6) closing stream to js.ngfiles.com for reason 2
+[2026/04/23 - 07:31:06] info: (565183c6) closing stream to css.ngfiles.com for reason 2
+[2026/04/23 - 07:31:06] info: (565183c6) closing stream to img.ngfiles.com for reason 2
+[2026/04/23 - 07:31:06] info: (565183c6) closing stream to uimg.ngfiles.com for reason 2
+[2026/04/23 - 07:31:07] info: (565183c6) closing stream to picon.ngfiles.com for reason 2
+[2026/04/23 - 07:31:08] info: (565183c6) closing stream to uploads.ungrounded.net for reason 2
+[2026/04/23 - 07:31:24] info: (565183c6) wisp connection closed

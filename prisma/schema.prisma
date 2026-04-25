@@ -1,0 +1,122 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum PlatformRole {
+  STUDENT
+  EDUCATOR
+  ADMIN
+  OWNER
+}
+
+enum SessionStatus {
+  ACTIVE
+  REVOKED
+  EXPIRED
+}
+
+model Tenant {
+  id          String       @id @default(cuid())
+  slug        String       @unique
+  name        String
+  domain      String?      @unique
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+  courses     Course[]
+  memberships Membership[]
+  auditLogs   AuditLog[]
+}
+
+model User {
+  id             String         @id @default(cuid())
+  email          String         @unique
+  fullName       String
+  passwordHash   String
+  mfaSecret      String?
+  emailVerified  DateTime?
+  createdAt      DateTime       @default(now())
+  updatedAt      DateTime       @updatedAt
+  memberships    Membership[]
+  sessions       Session[]
+  refreshTokens  RefreshToken[]
+  auditLogs      AuditLog[]
+}
+
+model Membership {
+  id        String       @id @default(cuid())
+  role      PlatformRole
+  createdAt DateTime     @default(now())
+  tenantId  String
+  userId    String
+  tenant     Tenant      @relation(fields: [tenantId], references: [id], onDelete: Cascade)
+  user       User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([tenantId, userId])
+}
+
+model Session {
+  id           String        @id @default(cuid())
+  tokenId      String        @unique
+  status       SessionStatus @default(ACTIVE)
+  ipAddress    String?
+  userAgent    String?
+  expiresAt    DateTime
+  createdAt    DateTime      @default(now())
+  userId       String
+  user         User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model RefreshToken {
+  id           String     @id @default(cuid())
+  tokenHash    String     @unique
+  replacedBy   String?
+  expiresAt    DateTime
+  createdAt    DateTime   @default(now())
+  revokedAt    DateTime?
+  userId       String
+  user         User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Course {
+  id          String      @id @default(cuid())
+  slug        String
+  title       String
+  summary     String
+  published   Boolean     @default(false)
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+  tenantId    String
+  tenant      Tenant      @relation(fields: [tenantId], references: [id], onDelete: Cascade)
+  lessons     Lesson[]
+
+  @@unique([tenantId, slug])
+}
+
+model Lesson {
+  id          String    @id @default(cuid())
+  title       String
+  position    Int
+  content     String
+  courseId    String
+  course      Course    @relation(fields: [courseId], references: [id], onDelete: Cascade)
+
+  @@unique([courseId, position])
+}
+
+model AuditLog {
+  id          String   @id @default(cuid())
+  action      String
+  entity      String
+  entityId     String?
+  metadata    Json?
+  createdAt   DateTime @default(now())
+  tenantId    String?
+  userId      String?
+  tenant      Tenant?  @relation(fields: [tenantId], references: [id], onDelete: SetNull)
+  user        User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+}
