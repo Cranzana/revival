@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/components/adsterra-ads.module.css"],"sourcesContent":[".nativeSlot {\n\tposition: fixed;\n\tright: 1rem;\n\tbottom: 1rem;\n\tz-index: 50;\n\twidth: min(340px, calc(100vw - 2rem));\n\tmax-height: min(50vh, 460px);\n\toverflow: auto;\n}\n\n@media (max-width: 720px) {\n\t.nativeSlot {\n\t\tright: 0.75rem;\n\t\tbottom: 0.75rem;\n\t\twidth: min(340px, calc(100vw - 1.5rem));\n\t\tmax-height: 45vh;\n\t}\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;;AAUA;EACC"}}]
+}
