@@ -1,6 +1,0 @@
-1:"$Sreact.fragment"
-2:I[71037,["/_next/static/chunks/0hf8nig0.imt9.js","/_next/static/chunks/0sg0gbm~3q6-s.js"],"ViewportBoundary"]
-3:I[71037,["/_next/static/chunks/0hf8nig0.imt9.js","/_next/static/chunks/0sg0gbm~3q6-s.js"],"MetadataBoundary"]
-4:"$Sreact.suspense"
-5:I[8364,["/_next/static/chunks/0hf8nig0.imt9.js","/_next/static/chunks/0sg0gbm~3q6-s.js"],"IconMark"]
-0:{"rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","meta","0",{"name":"description","content":"OmniEdu is a browser-style workspace with search and quick launch built on one fast Next.js origin."}],["$","meta","1",{"name":"application-name","content":"OmniEdu"}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","link","3",{"rel":"icon","href":"/assets/omniedu-logo.png"}],["$","$L5","4",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"f0OwEuPATkIs0PgqHyfUL"}

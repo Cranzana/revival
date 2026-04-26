@@ -86,6 +86,14 @@ const SHORTCUTS: ShortcutItem[] = [
 
 const SETTINGS_KEY = "omniedu.browser.settings";
 const SW_RELOAD_KEY = "omniedu.sw.control-reload";
+const SEARCH_ORIGIN = "https://duckduckgo.com/";
+
+function buildSearchUrl(query: string) {
+	const url = new URL(SEARCH_ORIGIN);
+	url.searchParams.set("q", query);
+
+	return url.toString();
+}
 
 function createStartTab(id: string): BrowserTab {
 	return {
@@ -170,7 +178,7 @@ function normalizeTarget(rawValue: string) {
 	}
 
 	if (value.includes(" ")) {
-		return `https://www.google.com/search?q=${encodeURIComponent(value)}`;
+		return buildSearchUrl(value);
 	}
 
 	const looksLikeHost =
@@ -181,7 +189,7 @@ function normalizeTarget(rawValue: string) {
 		/^(?:[a-z0-9-]+\.)+[a-z]{2,}(?:[/:?#]|$)/i.test(value);
 
 	if (!looksLikeHost) {
-		return `https://www.google.com/search?q=${encodeURIComponent(value)}`;
+		return buildSearchUrl(value);
 	}
 
 	return `https://${value}`;

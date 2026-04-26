@@ -64,12 +64,20 @@ type ScramjetWindow = Window & {
 
 const SETTINGS_KEY = "scramjet.console.settings";
 const RECENTS_KEY = "scramjet.console.recents";
+const SEARCH_ORIGIN = "https://duckduckgo.com/";
 const QUICK_LINKS: RecentDestination[] = [
-	{ label: "Google", url: "https://google.com" },
+	{ label: "DuckDuckGo", url: SEARCH_ORIGIN },
 	{ label: "GitHub", url: "https://github.com" },
 	{ label: "Wikipedia", url: "https://wikipedia.org" },
 	{ label: "MDN", url: "https://developer.mozilla.org" },
 ];
+
+function buildSearchUrl(query: string) {
+	const url = new URL(SEARCH_ORIGIN);
+	url.searchParams.set("q", query);
+
+	return url.toString();
+}
 
 function getDefaultSettings(): ProxySettings {
 	if (typeof window === "undefined") {
@@ -159,7 +167,18 @@ function normalizeTarget(rawValue: string) {
 	}
 
 	if (value.includes(" ")) {
-		return `https://www.google.com/search?q=${encodeURIComponent(value)}`;
+		return buildSearchUrl(value);
+	}
+
+	const looksLikeHost =
+		value === "localhost" ||
+		value.startsWith("localhost:") ||
+		value.startsWith("127.0.0.1") ||
+		value.startsWith("[::1]") ||
+		/^(?:[a-z0-9-]+\.)+[a-z]{2,}(?:[/:?#]|$)/i.test(value);
+
+	if (!looksLikeHost) {
+		return buildSearchUrl(value);
 	}
 
 	return `https://${value}`;
@@ -241,7 +260,7 @@ export function ProxyWorkspace() {
 	const [recentDestinations, setRecentDestinations] = useState<
 		RecentDestination[]
 	>([]);
-	const [inputValue, setInputValue] = useState("https://google.com");
+	const [inputValue, setInputValue] = useState(SEARCH_ORIGIN);
 	const [currentUrl, setCurrentUrl] = useState("");
 	const [status, setStatus] = useState("Starting workspace");
 	const [workerStatus, setWorkerStatus] = useState("Preparing session");
